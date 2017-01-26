@@ -2,4 +2,4 @@ INSERT INTO PRODUCTS VALUES('P1234','iPhone 6s','Apple iPhone 6s smartphone with
 
 INSERT INTO PRODUCTS VALUES('P1235','Dell Inspiron','Dell insprion 14-inch laptop black with 3rd generation intel core processors','700','Dell','Laptop','New',1000,0,false);
 
-INSERT INTO PRODUCTS VALUES('P1236','Nexus 7','Google nexus 7 is the lightest 7 inch tablet with a quad-core qualcomm snapdragon s4 pro processor','300','Google','Smartphone','New',1000,0,false);
+INSERT INTO PRODUCTS VALUES('P1236','Nexus 7','Google nexus 7 is the lightest 7 inch tablet with a quad-core qualcomm snapdragon s4 pro processor','300','Google','Tablet','New',1000,0,false);

@@ -17,8 +17,13 @@ public class RootApplicationContextConfig {
 	public DataSource dataSource() {
 		EmbeddedDatabaseBuilder builder = new EmbeddedDatabaseBuilder();
 
-		EmbeddedDatabase db = builder.setType(EmbeddedDatabaseType.HSQL).addScript("db/sql/create-table.sql")
-				.addScript("db/sql/insert-data.sql").build();
+		EmbeddedDatabase db = builder
+				.setType(EmbeddedDatabaseType.HSQL)
+				.addScript("db/sql/create-products-table.sql")
+				.addScript("db/sql/create-customers-table.sql")
+				.addScript("db/sql/insert-products-data.sql")
+				.addScript("db/sql/insert-customers-data.sql")
+				.build();
 
 		return db;
 	}
