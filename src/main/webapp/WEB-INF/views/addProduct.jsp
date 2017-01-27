@@ -20,7 +20,7 @@
 	<section class="container">
 		<!-- The object that we attach to the model has the key name of newProduct. The modelAttribute here in the form:form tag has the same value - newProduct. The newProduct object that we attached to the model from the Controller method (getAddNewProductForm) is now bound to the form. -->
 		<form:form method="POST" modelAttribute="newProduct"
-			class="form-horizontal">
+			class="form-horizontal" enctype="multipart/form-data">
 			<fieldset>
 				<legend>Add new product</legend>
 
@@ -97,6 +97,16 @@
 						Old
 						<form:radiobutton path="condition" value="Refurbished" />
 						Refurbished
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label class="control-label col-lg-2" for="productImage"> <spring:message
+							code="addProduct.form.productImage.label" />
+					</label>
+					<div class="col-lg-10">
+						<form:input id="productImage" path="productImage" type="file"
+							class="form:input-large" />
 					</div>
 				</div>
 
