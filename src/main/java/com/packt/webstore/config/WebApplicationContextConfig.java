@@ -14,6 +14,7 @@ import org.springframework.web.servlet.View;
 import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.PathMatchConfigurer;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
@@ -25,6 +26,7 @@ import org.springframework.web.servlet.view.xml.MarshallingView;
 import org.springframework.web.util.UrlPathHelper;
 
 import com.packt.webstore.domain.Product;
+import com.packt.webstore.interceptor.ProcessingTimeLogInterceptor;
 
 @Configuration // This indicates that the class declares one or more @Bean
 				// methods
@@ -122,5 +124,10 @@ public class WebApplicationContextConfig extends WebMvcConfigurerAdapter {
 		resolver.setDefaultViews(views);
 		
 		return resolver;
+	}
+	
+	@Override
+	public void addInterceptors(InterceptorRegistry registry) {
+		registry.addInterceptor(new ProcessingTimeLogInterceptor());
 	}
 }
