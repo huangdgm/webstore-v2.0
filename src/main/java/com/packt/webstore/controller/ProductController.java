@@ -198,7 +198,7 @@ public class ProductController {
 	public void initialiseBinder(WebDataBinder binder) {
 		// It is possible to use '*' pattern to match fields in a flexible way.
 		binder.setAllowedFields("productId", "name", "unitPrice", "description", "manufacturer", "category",
-				"unitsInStock", "condition", "productImage");
+				"unitsInStock", "condition", "productImage", "language");
 	}
 
 	@ExceptionHandler(ProductNotFoundException.class)
