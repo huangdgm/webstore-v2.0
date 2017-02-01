@@ -49,6 +49,26 @@ public class ProductController {
 
 		return "redirect:/market/products";
 	}
+	
+	@RequestMapping("/products/promoProducts")
+	public String validPromoCode(Model model) {
+		model.addAttribute("products", productService.getAllProducts());
+		
+		return "promoProducts";
+	}
+	
+	/**
+	 * http://localhost:8080/webstore/market/products/invalidPromoCode
+	 * 
+	 * The above URL matches the invalidPromoCode() method, not getProductsByCategory() method.
+	 * 
+	 * Root cause assumption:
+	 * invalidPromoCode() method comes before the getProductsByCategory() method.
+	 */
+	@RequestMapping("/products/invalidPromoCode")
+	public String invalidPromoCode() {
+		return "invalidPromoCode";
+	}
 
 	@RequestMapping("/products/{category}")
 	public String getProductsByCategory(Model model, @PathVariable("category") String productCategory) {
