@@ -10,6 +10,12 @@
 </head>
 <body>
 	<section>
+		<div class="pull-right" style="padding-right: 50px">
+			<a href="<c:url value="/logout" />">Logout</a>
+		</div>
+	</section>
+	
+	<section>
 		<div class="jumbotron">
 			<div class="container">
 				<h1>Products</h1>

@@ -11,7 +11,9 @@
 <body>
 	<section>
 		<div class="pull-right" style="padding-right: 50px">
-			<a href="?language=en&id=${product.productId}">English</a> | <a href="?language=nl&id=${product.productId}">Dutch</a>
+			<a href="?language=en&id=${product.productId}">English</a> | <a
+				href="?language=nl&id=${product.productId}">Dutch</a> | <a
+				href="<c:url value="/logout" />">Logout</a>
 		</div>
 	</section>
 	<section>

@@ -8,7 +8,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 @Controller
 @RequestMapping("/")
 public class HomeController {
-	@RequestMapping
+	@RequestMapping("/greeting")
 	/**
 	 * Default mapping method in the HomeController class, since there is no
 	 * parameter for the @RequestMapping.
@@ -34,5 +34,10 @@ public class HomeController {
 	@RequestMapping("/welcome/greeting")
 	public String greeting() {
 		return "welcome";
+	}
+	
+	@RequestMapping
+	public String welcomeTest(Model model) {
+		return "redirect:/login";
 	}
 }

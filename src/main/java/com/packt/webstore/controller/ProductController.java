@@ -94,7 +94,7 @@ public class ProductController {
 	 * If we mix matrix variable and request parameter together, we can use the
 	 * following pattern:
 	 *
-	 * http://localhost:8080/webstore/products/filter/category/tablet/price;low=100
+	 * http://localhost:8080/webstore/market/products/filter/category/tablet/price;low=100
 	 * ;high=1000?manufacturer=google
 	 * 
 	 * Be careful:
