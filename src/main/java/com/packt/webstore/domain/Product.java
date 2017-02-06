@@ -3,26 +3,49 @@ package com.packt.webstore.domain;
 import java.io.Serializable;
 import java.math.BigDecimal;
 
+import javax.validation.constraints.Digits;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Size;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlTransient;
 
 import org.codehaus.jackson.annotate.JsonIgnore;
+import org.hibernate.validator.constraints.NotBlank;
 import org.springframework.web.multipart.MultipartFile;
+
+import com.packt.webstore.validator.ProductId;
 
 @XmlRootElement
 public class Product implements Serializable {
 	private static final long serialVersionUID = 1L;
 
+	@Pattern(regexp = "P[1-9]+", message = "{Pattern.Product.productId.validation}")
+	@ProductId
 	private String productId;
+
+	@Size(min = 4, max = 50, message = "{Size.Product.name.validation}")
 	private String name;
+
+	@Min(value = 0, message = "{Min.Product.unitPrice.validation}")
+	@Digits(integer = 8, fraction = 2, message = "{Digits.Product.unitPrice.validation}")
+	@NotNull(message = "{NotNull.Product.unitPrice.validation}")
 	private BigDecimal unitPrice;
+
 	private String description;
 	private String manufacturer;
+	
+	@NotBlank(message = "{NotBlank.Product.category.validation}")
 	private String category;
+	
+	@Min(value = 0, message = "{Min.Product.unitsInStock.validation}")
 	private long unitsInStock;
+	
 	private long unitsInOrder;
 	private boolean discontinued;
 	private String condition;
+
 	@JsonIgnore
 	private MultipartFile productImage;
 
@@ -115,7 +138,7 @@ public class Product implements Serializable {
 	public void setCondition(String condition) {
 		this.condition = condition;
 	}
-	
+
 	@XmlTransient
 	public MultipartFile getProductImage() {
 		return productImage;

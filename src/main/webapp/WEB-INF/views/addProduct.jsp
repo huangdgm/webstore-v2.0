@@ -12,7 +12,7 @@
 	<section>
 		<div class="pull-right" style="padding-right: 50px">
 			<a href="?language=en">English</a> | <a href="?language=nl">Dutch</a>
-			| <a href="<c:url value="/logout" />">Logout</a>
+			| <a href="<spring:url value="/logout" />">Logout</a>
 		</div>
 	</section>
 	<section>
@@ -27,6 +27,7 @@
 		<!-- The object that we attach to the model has the key name of newProduct. The modelAttribute here in the form:form tag has the same value - newProduct. The newProduct object that we attached to the model from the Controller method (getAddNewProductForm) is now bound to the form. -->
 		<form:form method="POST" modelAttribute="newProduct"
 			class="form-horizontal" enctype="multipart/form-data">
+			<form:errors path="*" cssClass="alert alert-danger" element="div" />
 			<fieldset>
 				<legend>Add new product</legend>
 
@@ -37,6 +38,7 @@
 						<!-- The path attribute is used to indicate which field in the newProduct object should be assigned with the data that the end user enters. -->
 						<form:input id="productId" path="productId" type="text"
 							class="form:input-large" />
+						<form:errors path="productId" cssClass="text-danger" />
 					</div>
 				</div>
 
@@ -46,6 +48,7 @@
 					<div class="col-lg-10">
 						<form:input id="name" path="name" type="text"
 							class="form:input-large" />
+						<form:errors path="name" cssClass="text-danger" />
 					</div>
 				</div>
 
@@ -55,6 +58,7 @@
 					<div class="col-lg-10">
 						<form:input id="unitPrice" path="unitPrice" type="text"
 							class="form:input-large" />
+						<form:errors path="unitPrice" cssClass="text-danger" />
 					</div>
 				</div>
 
@@ -73,6 +77,7 @@
 					<div class="col-lg-10">
 						<form:input id="category" path="category" type="text"
 							class="form:input-large" />
+						<form:errors path="category" cssClass="text-danger" />
 					</div>
 				</div>
 
@@ -82,6 +87,7 @@
 					<div class="col-lg-10">
 						<form:input id="unitsInStock" path="unitsInStock" type="text"
 							class="form:input-large" />
+						<form:errors path="unitsInStock" cssClass="text-danger" />
 					</div>
 				</div>
 
@@ -121,6 +127,14 @@
 						<input type="submit" id="btnAdd" class="btn btn-primary"
 							value=<spring:message
 							code="addProduct.form.add.label" /> />
+						<input type="reset" id="btnReset" class="btn btn-primary"
+							value=<spring:message
+							code="addProduct.form.reset.label" /> />
+						<a href="<spring:url value="/market/products" />"
+							class="btn btn-primary"> <span
+							class="glyphicon-info-sign glyphicon" /></span> <spring:message
+								code="addProduct.form.cancel.label" />
+						</a>
 					</div>
 				</div>
 			</fieldset>

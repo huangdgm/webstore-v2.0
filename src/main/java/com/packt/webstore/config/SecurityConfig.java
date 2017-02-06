@@ -34,16 +34,14 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		 * 
 		 * 1. All user roles can access http://localhost:8080/webstore 2. Only
 		 * the user with the role of Admin can access
-		 * http://localhost:8080/webstore/market/products/addProduct 3. Only the
-		 * user with the role of USER can access
-		 * http://localhost:8080/webstore/market/**, but not the URL as stated
-		 * in No.2
+		 * http://localhost:8080/webstore/market/products/addProduct and
+		 * http://localhost:8080/webstore/customers. 3. Only the user with the
+		 * role of USER can access http://localhost:8080/webstore/market/**, but
+		 * not the URL as stated in No.2
 		 */
 		httpSecurity.authorizeRequests().antMatchers("/").permitAll().antMatchers("/**/addProduct")
-				.access("hasRole('ADMIN')").antMatchers("/**/customers/**").access("hasRole('ADMIN')").antMatchers("/**/market/**").access("hasRole('USER')");
-		// httpSecurity.authorizeRequests().antMatchers("/**/addProduct").access("hasRole('ADMIN')").antMatchers("http://localhost:8080/webstore/welcome/greeting").access("hasRole('USER')");
-//		httpSecurity.authorizeRequests().antMatchers("/").permitAll().antMatchers("/**/products")
-//				.access("hasRole('USER')").antMatchers("/**/addProduct").access("hasRole('ADMIN')");
+				.access("hasRole('ADMIN')").antMatchers("/**/customers/**").access("hasRole('ADMIN')")
+				.antMatchers("/**/market/**").access("hasRole('USER')");
 
 		httpSecurity.csrf().disable();
 	}

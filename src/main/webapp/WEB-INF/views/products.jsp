@@ -10,11 +10,12 @@
 </head>
 <body>
 	<section>
-		<div class="pull-right" style="padding-right: 50px">
-			<a href="<c:url value="/logout" />">Logout</a>
+		<div class="pull-right" style="padding-right: 30px">
+			<a href="<spring:url value="/market/products/addProduct" />"> Add
+				Product</a> | <a href="<c:url value="/logout" />">Logout</a>
 		</div>
 	</section>
-	
+
 	<section>
 		<div class="jumbotron">
 			<div class="container">
@@ -23,6 +24,7 @@
 			</div>
 		</div>
 	</section>
+
 	<section class="container">
 		<div class="row">
 			<c:forEach items="${products}" var="product">
@@ -50,5 +52,6 @@
 			</c:forEach>
 		</div>
 	</section>
+
 </body>
 </html>
