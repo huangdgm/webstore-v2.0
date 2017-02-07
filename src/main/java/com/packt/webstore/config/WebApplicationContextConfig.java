@@ -1,7 +1,9 @@
 package com.packt.webstore.config;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Locale;
+import java.util.Set;
 
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
@@ -35,6 +37,8 @@ import org.springframework.web.util.UrlPathHelper;
 import com.packt.webstore.domain.Product;
 import com.packt.webstore.interceptor.ProcessingTimeLogInterceptor;
 import com.packt.webstore.interceptor.PromoCodeInterceptor;
+import com.packt.webstore.validator.ProductValidator;
+import com.packt.webstore.validator.UnitsInStockValidator;
 
 @Configuration // This indicates that the class declares one or more @Bean
 				// methods
@@ -94,8 +98,8 @@ public class WebApplicationContextConfig extends WebMvcConfigurerAdapter {
 		CommonsMultipartResolver resolver = new CommonsMultipartResolver();
 
 		resolver.setDefaultEncoding("utf-8");
-		resolver.setMaxUploadSize(10240000);
-		resolver.setMaxUploadSizePerFile(4096000);
+		resolver.setMaxUploadSize(4096000);
+		resolver.setMaxUploadSizePerFile(1024000);
 
 		return resolver;
 	}
@@ -165,18 +169,29 @@ public class WebApplicationContextConfig extends WebMvcConfigurerAdapter {
 
 		return promoCodeInterceptor;
 	}
-	
-	@Bean(name="validator")
+
+	@Bean(name = "validator")
 	public LocalValidatorFactoryBean validator() {
 		LocalValidatorFactoryBean bean = new LocalValidatorFactoryBean();
-		
+
 		bean.setValidationMessageSource(messageSource());
-		
+
 		return bean;
 	}
-	
+
 	@Override
 	public Validator getValidator() {
 		return validator();
+	}
+
+	@Bean
+	public ProductValidator productValidator() {
+		Set<Validator> springValidators = new HashSet<>();
+		springValidators.add(new UnitsInStockValidator());
+
+		ProductValidator productValidator = new ProductValidator();
+		productValidator.setSpringValidators(springValidators);
+
+		return productValidator;
 	}
 }

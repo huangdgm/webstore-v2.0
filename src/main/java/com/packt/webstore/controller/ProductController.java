@@ -30,12 +30,16 @@ import com.packt.webstore.domain.Product;
 import com.packt.webstore.exception.NoProductsFoundUnderCategoryException;
 import com.packt.webstore.exception.ProductNotFoundException;
 import com.packt.webstore.service.ProductService;
+import com.packt.webstore.validator.ProductValidator;
 
 @Controller
 @RequestMapping("market") // relative request mapping
 public class ProductController {
 	@Autowired
 	private ProductService productService;
+	
+	@Autowired 
+    private ProductValidator productValidator;
 
 	@RequestMapping("/products")
 	public String list(Model model) {
@@ -198,9 +202,8 @@ public class ProductController {
 		}
 
 		MultipartFile productImage = newProduct.getProductImage();
-		String rootDirectory = request.getSession().getServletContext().getRealPath("/");
-		// String rootDirectory =
-		// "F:\\p2\\workspace_j2ee_sts\\webstore\\src\\main\\webapp\\";
+//		String rootDirectory = request.getSession().getServletContext().getRealPath("/");
+		String rootDirectory = "F:\\p2\\workspace_j2ee_sts\\webstore\\src\\main\\webapp\\";
 
 		if (productImage != null && !productImage.isEmpty()) {
 			try {
@@ -224,6 +227,8 @@ public class ProductController {
 		// It is possible to use '*' pattern to match fields in a flexible way.
 		binder.setAllowedFields("productId", "name", "unitPrice", "description", "manufacturer", "category",
 				"unitsInStock", "condition", "productImage", "language");
+		
+		binder.setValidator(productValidator);
 	}
 
 	@ExceptionHandler(ProductNotFoundException.class)
