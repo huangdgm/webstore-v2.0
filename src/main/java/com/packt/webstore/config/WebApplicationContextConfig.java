@@ -40,10 +40,16 @@ import com.packt.webstore.interceptor.PromoCodeInterceptor;
 import com.packt.webstore.validator.ProductValidator;
 import com.packt.webstore.validator.UnitsInStockValidator;
 
-@Configuration // This indicates that the class declares one or more @Bean
-				// methods
-@EnableWebMvc // Adding this annotation to an @Configuration class imports some
-				// special Spring MVC configuration
+/**
+ * @Configuration This indicates that the class declares one or more @Bean
+ *                methods.
+ * @EnableWebMvc Adding this annotation to an @Configuration class imports some
+ *               special Spring MVC configuration
+ * @ComponentScan Specify which package should be searched for, such as
+ *                the @Component @Repository and so on.
+ */
+@Configuration
+@EnableWebMvc
 @ComponentScan("com.packt.webstore")
 public class WebApplicationContextConfig extends WebMvcConfigurerAdapter {
 	@Override

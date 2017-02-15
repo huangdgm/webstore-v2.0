@@ -17,13 +17,19 @@ public class RootApplicationContextConfig {
 	public DataSource dataSource() {
 		EmbeddedDatabaseBuilder builder = new EmbeddedDatabaseBuilder();
 
-		EmbeddedDatabase db = builder
-				.setType(EmbeddedDatabaseType.HSQL)
-				.addScript("db/sql/create-products-table.sql")
-				.addScript("db/sql/create-customers-table.sql")
-				.addScript("db/sql/insert-products-data.sql")
-				.addScript("db/sql/insert-customers-data.sql")
-				.build();
+		/**
+		 * I replaced 5 addScript method with 2 addScript method, then the error
+		 * message has gone. Why?
+		 * 
+		 * 5 addScript method: 
+		 * .addScript("db/sql/create-customers-table.sql")
+		 * .addScript("db/sql/create-cart-table.sql")
+		 * .addScript("db/sql/create-products-table.sql")
+		 * .addScript("db/sql/insert-products-data.sql")
+		 * .addScript("db/sql/insert-customers-data.sql")
+		 */
+		EmbeddedDatabase db = builder.setType(EmbeddedDatabaseType.HSQL).addScript("db/sql/create-table.sql")
+				.addScript("db/sql/insert-data.sql").build();
 
 		return db;
 	}
