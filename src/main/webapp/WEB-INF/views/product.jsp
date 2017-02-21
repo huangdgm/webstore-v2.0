@@ -7,6 +7,12 @@
 <link rel="stylesheet"
 	href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
 <title>Products</title>
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+
+<script src="/webstore/resources/js/controllers.js"></script>
+
 </head>
 <body>
 	<section>
@@ -23,7 +29,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="container">
+	<section class="container" ng-app="cartApp">
 		<div class="row">
 			<div class="col-md-5">
 				<img src="<c:url value="/img/${product.productId}.png"></c:url>"
@@ -53,14 +59,17 @@
 					${product.unitsInStock}
 				</p>
 				<h4>${product.unitPrice}USD</h4>
-				<p>
+				<p ng-controller="cartCtrl">
 					<a href="<spring:url value="/market/products" />"
 						class="btn btn-default"> <span
 						class="glyphicon-hand-left glyphicon"></span> <spring:message
 							code="product.form.backButton.label" />
-					</a> <a href="#" class="btn btn-warning btn-large"> <span
-						class="glyphicon-shopping-cart glyphicon"> </span> <spring:message
-							code="product.form.orderNowButton.label" />
+					</a> <a href="#" class="btn btn-warning btn-large"
+						ng-click="addToCart('${product.productId}')"> <span
+						class="glyphicon-shopping-cart glyphicon"></span>
+					<spring:message code="product.form.orderNowButton.label" /></a> <a
+						href="<spring:url value="/cart" />" class="btn btn-default"> <span
+						class="glyphicon-hand-right glyphicon"></span> View Cart
 					</a>
 				</p>
 			</div>

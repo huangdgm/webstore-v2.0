@@ -35,6 +35,12 @@ public class CartRestController {
 
 	@RequestMapping(value = "/{cartId}", method = RequestMethod.PUT)
 	@ResponseStatus(value = HttpStatus.OK)
+	/**
+	 * when you send an HTTP request to a Controller method with JSON/XML data
+	 * in it, the @RequestBody annotation instructs Spring to convert it into
+	 * the corresponding Java object. That's why the create method has a cartDto
+	 * parameter annotated with a @RequestBody annotation
+	 */
 	public void update(@PathVariable(value = "cartId") String cartId, @RequestBody CartDto cartDto) {
 		cartDto.setId(cartId);
 		cartService.update(cartId, cartDto);
