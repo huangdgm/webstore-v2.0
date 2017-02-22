@@ -23,7 +23,7 @@ public class InMemoryCustomerRepository implements CustomerRepository {
 	public List<Customer> getAllCustomers() {
 		Map<String, Object> params = new HashMap<String, Object>();
 
-		List<Customer> result = jdbcTemplate.query("SELECT * FROM customers", params, new CustomerMapper());
+		List<Customer> result = jdbcTemplate.query("SELECT * FROM customer", params, new CustomerMapper());
 
 		return result;
 	}
@@ -33,10 +33,10 @@ final class CustomerMapper implements RowMapper<Customer> {
 	public Customer mapRow(ResultSet rs, int rowNum) throws SQLException {
 		Customer customer = new Customer();
 
-		customer.setCustomerId(rs.getString("ID"));
+		customer.setCustomerId(rs.getLong("ID"));
 		customer.setName(rs.getString("NAME"));
-		customer.setAddress(rs.getString("ADDRESS"));
-		customer.setNoOfOrdersMade(rs.getLong("NOOFORDERSMADE"));
+//		customer.setBillingAddress(rs.getInt("BILLING_ADDRESS_ID"));
+		customer.setPhoneNumber(rs.getString("PHONE_NUMBER"));
 
 		return customer;
 	}

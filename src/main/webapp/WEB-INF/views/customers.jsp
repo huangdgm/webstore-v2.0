@@ -29,8 +29,7 @@
 						<div class="caption">
 							<h3>${customer.customerId}</h3>
 							<p>${customer.name}</p>
-							<p>${customer.address}</p>
-							<p>Made ${customer.noOfOrdersMade} orders</p>
+							<p>${customer.phoneNumber}</p>
 						</div>
 					</div>
 				</div>
