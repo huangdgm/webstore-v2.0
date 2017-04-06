@@ -26,7 +26,7 @@ public class Customer implements Serializable {
 		return customerId;
 	}
 
-	public void setCustomerId(long customerId) {
+	public void setCustomerId(Long customerId) {
 		this.customerId = customerId;
 	}
 

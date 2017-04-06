@@ -18,4 +18,19 @@ public class CustomerServiceImpl implements CustomerService {
 	public List<Customer> getAllCustomers() {
 		return customerRepository.getAllCustomers();
 	}
+
+	@Override
+	public long saveCustomer(Customer customer) {
+		return customerRepository.saveCustomer(customer);
+	}
+
+	@Override
+	public Customer getCustomerById(Long customerId) {
+		return customerRepository.getCustomerById(customerId);
+	}
+
+	@Override
+	public Boolean isCustomerExist(String customerId) {
+		return customerRepository.isCustomerExist(customerId);
+	}
 }

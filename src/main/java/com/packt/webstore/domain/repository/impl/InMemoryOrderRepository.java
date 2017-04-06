@@ -22,10 +22,10 @@ import com.packt.webstore.service.CartService;
 public class InMemoryOrderRepository implements OrderRepository {
 
 	@Autowired
-	private NamedParameterJdbcTemplate jdbcTempleate;
+	private NamedParameterJdbcTemplate jdbcTemplate;
 
 	@Autowired
-	private CartService CartService;
+	private CartService cartService;
 
 	@Override
 	public long saveOrder(Order order) {
@@ -37,7 +37,7 @@ public class InMemoryOrderRepository implements OrderRepository {
 		order.getShippingDetail().setId(shippingDetailId);
 
 		long createdOrderId = createOrder(order);
-		CartService.clearCart(order.getCart().getId());
+		cartService.clearCart(order.getCart().getId());
 
 		return createdOrderId;
 	}
@@ -55,7 +55,7 @@ public class InMemoryOrderRepository implements OrderRepository {
 		SqlParameterSource paramSource = new MapSqlParameterSource(params);
 
 		KeyHolder keyHolder = new GeneratedKeyHolder();
-		jdbcTempleate.update(SQL, paramSource, keyHolder, new String[] { "ID" });
+		jdbcTemplate.update(SQL, paramSource, keyHolder, new String[] { "ID" });
 
 		return keyHolder.getKey().longValue();
 	}
@@ -74,7 +74,7 @@ public class InMemoryOrderRepository implements OrderRepository {
 		SqlParameterSource paramSource = new MapSqlParameterSource(params);
 
 		KeyHolder keyHolder = new GeneratedKeyHolder();
-		jdbcTempleate.update(SQL, paramSource, keyHolder, new String[] { "ID" });
+		jdbcTemplate.update(SQL, paramSource, keyHolder, new String[] { "ID" });
 
 		return keyHolder.getKey().longValue();
 	}
@@ -84,6 +84,7 @@ public class InMemoryOrderRepository implements OrderRepository {
 				+ "VALUES (:doorNo, :streetName, :areaName, :state, :country, :zip)";
 
 		Map<String, Object> params = new HashMap<String, Object>();
+		
 		params.put("doorNo", address.getDoorNo());
 		params.put("streetName", address.getStreetName());
 		params.put("areaName", address.getAreaName());
@@ -94,13 +95,12 @@ public class InMemoryOrderRepository implements OrderRepository {
 		SqlParameterSource paramSource = new MapSqlParameterSource(params);
 
 		KeyHolder keyHolder = new GeneratedKeyHolder();
-		jdbcTempleate.update(SQL, paramSource, keyHolder, new String[] { "ID" });
+		jdbcTemplate.update(SQL, paramSource, keyHolder, new String[] { "ID" });
 
 		return keyHolder.getKey().longValue();
 	}
 
 	private long createOrder(Order order) {
-
 		String SQL = "INSERT INTO ORDERS(CART_ID,CUSTOMER_ID,SHIPPING_DETAIL_ID) " + "VALUES (:cartId, :customerId, :shippingDetailId)";
 
 		Map<String, Object> params = new HashMap<String, Object>();
@@ -112,7 +112,7 @@ public class InMemoryOrderRepository implements OrderRepository {
 		SqlParameterSource paramSource = new MapSqlParameterSource(params);
 
 		KeyHolder keyHolder = new GeneratedKeyHolder();
-		jdbcTempleate.update(SQL, paramSource, keyHolder, new String[] { "ID" });
+		jdbcTemplate.update(SQL, paramSource, keyHolder, new String[] { "ID" });
 
 		return keyHolder.getKey().longValue();
 	}

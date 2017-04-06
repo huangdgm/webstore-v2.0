@@ -53,8 +53,10 @@ public class InMemoryCartRepository implements CartRepository {
 
 	public Cart read(String id) {
 		String SQL = "SELECT * FROM CART WHERE ID = :id";
+		
 		Map<String, Object> params = new HashMap<String, Object>();
 		params.put("id", id);
+		
 		CartMapper cartMapper = new CartMapper(jdbcTemplate, productService);
 
 		try {

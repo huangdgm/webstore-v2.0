@@ -6,4 +6,7 @@ import com.packt.webstore.domain.Customer;
 
 public interface CustomerService {
 	List<Customer> getAllCustomers();
+	long saveCustomer(Customer customer);
+	Customer getCustomerById(Long customerId);
+	Boolean isCustomerExist(String customerId);
 }

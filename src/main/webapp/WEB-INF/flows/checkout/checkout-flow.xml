@@ -11,12 +11,22 @@
 			result="order.cart" />
 		<transition to="invalidCartWarning"
 			on-exception="com.packt.webstore.exception.InvalidCartException" />
-		<transition to="collectCustomerInfo" />
+		<transition to="collectCustomerId" />
 	</action-state>
+
+	<view-state id="collectCustomerId" view="collectCustomerId.jsp"
+		model="order">
+		<transition on="checkCustomerId" to="checkCustomerExist" />
+	</view-state>
+
+	<decision-state id="checkCustomerExist">
+		<if test="customerServiceImpl.isCustomerExist(order.customer.customerId)"
+			then="collectShippingDetail" else="collectCustomerInfo" />
+	</decision-state>
 
 	<view-state id="collectCustomerInfo" view="collectCustomerInfo.jsp"
 		model="order">
-		<transition on="customerInfoCollected" to="collectShippingDetail" />
+		<transition on="customerInfoCollected" to="storeCustomerInfo" />
 	</view-state>
 
 	<view-state id="collectShippingDetail" model="order">
@@ -39,6 +49,10 @@
 		<transition to="endState" />
 	</view-state>
 
+	<view-state id="invalidCustomerWarning">
+		<transition to="endState" />
+	</view-state>
+
 	<view-state id="thankCustomer" model="order">
 		<transition to="endState" />
 	</view-state>
@@ -46,6 +60,14 @@
 	<end-state id="endState" />
 
 	<end-state id="cancelCheckout" view="checkOutCancelled.jsp" />
+
+	<action-state id="storeCustomerInfo">
+		<evaluate expression="customerServiceImpl.saveCustomer(order.customer)"
+			result="order.customer" />
+		<transition to="invalidCustomerWarning"
+			on-exception="com.packt.webstore.exception.InvalidCustomerException" />
+		<transition to="collectShippingDetail"></transition>
+	</action-state>
 
 	<global-transitions>
 		<transition on="cancel" to="cancelCheckout" />
