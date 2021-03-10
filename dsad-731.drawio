@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-10T08:56:56.502Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 Edg/88.0.705.63" etag="AtmBJ94a0Uqq8059KFCl" version="14.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-10T08:58:27.939Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 Edg/88.0.705.63" etag="bQki5U3KFzy1rO0XDdDD" version="14.4.5" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="2589" dy="1806" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -27,15 +27,15 @@
         </mxCell>
         <mxCell id="P1ETKW7xS4ezUGH-ev0N-125" value="" style="endArrow=classic;html=1;fontSize=20;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="510" y="75.65999999999985" as="sourcePoint" />
-            <mxPoint x="630" y="75.65999999999985" as="targetPoint" />
+            <mxPoint x="500" y="-73.10000000000014" as="sourcePoint" />
+            <mxPoint x="620" y="-73.10000000000014" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="542" y="75.32999999999993" />
+              <mxPoint x="532" y="-73.43000000000006" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="P1ETKW7xS4ezUGH-ev0N-126" value="&lt;font style=&quot;font-size: 12px&quot;&gt;One way dataflow&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="504.5" y="41.99999999999977" width="105" height="31" as="geometry" />
+          <mxGeometry x="494.5" y="-106.76000000000022" width="105" height="31" as="geometry" />
         </mxCell>
         <mxCell id="P1ETKW7xS4ezUGH-ev0N-159" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;SR Public area&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;workspace_sr&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;project_sr&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;table_1&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;table_2&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;Trust all the other projects&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC" parent="1" vertex="1">
           <mxGeometry x="70" y="-37" width="154" height="158.5" as="geometry" />
@@ -93,15 +93,6 @@
         </mxCell>
         <mxCell id="BuY6lLi31nu-NfypY2Oj-11" value="Access" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="1439" y="89" width="49" height="18" as="geometry" />
-        </mxCell>
-        <mxCell id="BuY6lLi31nu-NfypY2Oj-38" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;Two way dataflow based on&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;package or exception policy&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="510" y="-50.5" width="170" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BuY6lLi31nu-NfypY2Oj-42" value="" style="endArrow=classic;startArrow=classic;html=1;dashed=1;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="510" y="15.999999999999998" as="sourcePoint" />
-            <mxPoint x="635" y="15.999999999999998" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="BuY6lLi31nu-NfypY2Oj-49" value="&lt;p style=&quot;margin: 4px 0px 0px&quot;&gt;BU protected area&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;workspace_iptiq_2&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;project_iptiq_2&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC" parent="1" vertex="1">
           <mxGeometry x="472" y="269.25" width="128" height="86.5" as="geometry" />
@@ -242,8 +233,8 @@
             <mxPoint x="2" y="15" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BuY6lLi31nu-NfypY2Oj-113" value="Trusted group" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="500" y="-100.5" width="130" height="30" as="geometry" />
+        <mxCell id="xc5hKMr7l7KYl4tKn60T-10" value="SR public area trusts all the other projects within Swiss Re" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="67" y="133" width="320" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
