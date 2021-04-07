@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-04-07T04:37:24.410Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 Edg/88.0.705.63" etag="_BJw5vXStZ6_wxBuDYGY" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-07T04:46:19.378Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 Edg/88.0.705.63" etag="b-o2lrcnnfi7Snd6SKzv" version="14.5.7" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="2278" dy="1794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2278" dy="1694" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="SHFTIFkNnXEHKd1YVMf3-4" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-440" y="210" width="410" height="370" as="geometry" />
+          <mxGeometry x="-464" y="211" width="410" height="370" as="geometry" />
         </mxCell>
         <mxCell id="SHFTIFkNnXEHKd1YVMf3-1" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="SHFTIFkNnXEHKd1YVMf3-4">
           <mxGeometry width="390" height="270" as="geometry" />
@@ -246,7 +246,7 @@
         </mxCell>
         <mxCell id="xDphmvwOVZGYUPQbG3uU-14" value="" style="curved=1;endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="1" target="xDphmvwOVZGYUPQbG3uU-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="26.65075376884397" y="410" as="sourcePoint" />
+            <mxPoint x="15.967499999999745" y="419" as="sourcePoint" />
             <mxPoint x="40" y="400" as="targetPoint" />
             <Array as="points">
               <mxPoint x="83" y="360" />
@@ -255,7 +255,7 @@
         </mxCell>
         <mxCell id="xDphmvwOVZGYUPQbG3uU-15" value="" style="curved=1;endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="1" target="xDphmvwOVZGYUPQbG3uU-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="26.65075376884397" y="410" as="sourcePoint" />
+            <mxPoint x="15.967499999999745" y="419" as="sourcePoint" />
             <mxPoint x="360" y="480" as="targetPoint" />
             <Array as="points">
               <mxPoint x="290" y="380" />
@@ -442,14 +442,11 @@
         <mxCell id="xDphmvwOVZGYUPQbG3uU-22" value="&lt;font style=&quot;font-size: 18px&quot;&gt;3&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFCC99;" parent="SHFTIFkNnXEHKd1YVMf3-79" vertex="1">
           <mxGeometry width="29" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="SHFTIFkNnXEHKd1YVMf3-80" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-55" y="415" width="241" height="209" as="geometry" />
+        <mxCell id="SHFTIFkNnXEHKd1YVMf3-84" value="&lt;font&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Plan A&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&amp;nbsp;Alibaba creates:&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;1. A new DataWorks role, and&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;2. A new MaxCompute role&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;or, Alibaba allows us to create customized roles by ourselves&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-15.607750511247446" y="427" width="205.60327198364007" height="176" as="geometry" />
         </mxCell>
-        <mxCell id="SHFTIFkNnXEHKd1YVMf3-81" value="&lt;span style=&quot;font-size: 14px&quot;&gt;Plan A&lt;/span&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Alibaba creates:&lt;/span&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;1. A new DataWorks role, and&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;2. A new MaxCompute role&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;or&lt;/span&gt;&lt;/div&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Alibaba allows us to create customized DataWorks roles and MaxCompute roles&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="SHFTIFkNnXEHKd1YVMf3-80">
-          <mxGeometry x="14.29" y="4" width="226.71" height="205" as="geometry" />
-        </mxCell>
-        <mxCell id="SHFTIFkNnXEHKd1YVMf3-82" value="&lt;font style=&quot;font-size: 18px&quot;&gt;6&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFCC99;" vertex="1" parent="SHFTIFkNnXEHKd1YVMf3-80">
-          <mxGeometry x="-13.710000000000008" y="8.329999999999984" width="28" height="28" as="geometry" />
+        <mxCell id="SHFTIFkNnXEHKd1YVMf3-85" value="&lt;font style=&quot;font-size: 18px&quot;&gt;6&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFCC99;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="435" width="31" height="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
