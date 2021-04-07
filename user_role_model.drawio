@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-07T04:22:20.354Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 Edg/88.0.705.63" etag="BW9RlSZ9kH3UFS_0gkaS" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-07T04:30:24.696Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 Edg/88.0.705.63" etag="soeOJZY6qHek4CfEX7Ox" version="14.5.7" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="2077" dy="1850" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2278" dy="1850" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -283,19 +283,10 @@
         <mxCell id="xDphmvwOVZGYUPQbG3uU-20" value="&lt;font style=&quot;font-size: 18px&quot;&gt;5&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFCC99;" parent="SHFTIFkNnXEHKd1YVMf3-7" vertex="1">
           <mxGeometry width="29" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="SHFTIFkNnXEHKd1YVMf3-8" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="556" width="159" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="IdMNI_JNh8bzWSV93UBb-147" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Administrative roles in MaxCompute&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="SHFTIFkNnXEHKd1YVMf3-8" vertex="1">
-          <mxGeometry width="125.8273381294964" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="xDphmvwOVZGYUPQbG3uU-22" value="&lt;font style=&quot;font-size: 18px&quot;&gt;3&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFCC99;" parent="SHFTIFkNnXEHKd1YVMf3-8" vertex="1">
-          <mxGeometry x="125.8273381294964" width="29" height="29" as="geometry" />
-        </mxCell>
         <mxCell id="SHFTIFkNnXEHKd1YVMf3-10" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-70" y="410" width="269" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="xDphmvwOVZGYUPQbG3uU-13" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Plan A&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font size=&quot;3&quot;&gt;Alibaba creates:&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font size=&quot;3&quot;&gt;&lt;span&gt;1. A new DataWorks role, and&lt;/span&gt;&lt;br&gt;&lt;span&gt;2. A new MaxCompute role&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font size=&quot;3&quot;&gt;Or&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font size=&quot;3&quot;&gt;Alibaba allows us to create customized DataWorks roles and MaxCompute roles&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="SHFTIFkNnXEHKd1YVMf3-10" vertex="1">
+        <mxCell id="xDphmvwOVZGYUPQbG3uU-13" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Plan A&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Alibaba creates:&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;span&gt;1. A new DataWorks role, and&lt;/span&gt;&lt;br&gt;&lt;span&gt;2. A new MaxCompute role&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Or&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Alibaba allows us to create customized DataWorks roles and MaxCompute roles&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="SHFTIFkNnXEHKd1YVMf3-10" vertex="1">
           <mxGeometry x="39.20100502512563" width="229.7989949748744" height="219.99999999999997" as="geometry" />
         </mxCell>
         <mxCell id="xDphmvwOVZGYUPQbG3uU-19" value="&lt;font style=&quot;font-size: 18px&quot;&gt;6&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFCC99;" parent="SHFTIFkNnXEHKd1YVMf3-10" vertex="1">
@@ -447,6 +438,18 @@
         </mxCell>
         <mxCell id="xDphmvwOVZGYUPQbG3uU-21" value="&lt;font style=&quot;font-size: 18px&quot;&gt;4&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFCC99;" parent="SHFTIFkNnXEHKd1YVMf3-78" vertex="1">
           <mxGeometry y="5.5" width="29" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="SHFTIFkNnXEHKd1YVMf3-79" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="542.9973381294964" y="-16" width="188.00266187050363" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SHFTIFkNnXEHKd1YVMf3-8" value="" style="group" vertex="1" connectable="0" parent="SHFTIFkNnXEHKd1YVMf3-79">
+          <mxGeometry x="29.00266187050363" width="159" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IdMNI_JNh8bzWSV93UBb-147" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Administrative roles in MaxCompute&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="SHFTIFkNnXEHKd1YVMf3-8" vertex="1">
+          <mxGeometry width="125.8273381294964" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xDphmvwOVZGYUPQbG3uU-22" value="&lt;font style=&quot;font-size: 18px&quot;&gt;3&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFCC99;" parent="SHFTIFkNnXEHKd1YVMf3-79" vertex="1">
+          <mxGeometry width="29" height="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
