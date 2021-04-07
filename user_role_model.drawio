@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-07T04:03:33.461Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 Edg/88.0.705.63" etag="k_S7SJlhT4bw3akMTzCm" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-07T04:10:22.540Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 Edg/88.0.705.63" etag="sNNXX3c8MRlqPX8_2RZd" version="14.5.7" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="2245" dy="1806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2589" dy="1996" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,7 +22,7 @@
         <mxCell id="SHFTIFkNnXEHKd1YVMf3-19" value="" style="group" vertex="1" connectable="0" parent="SHFTIFkNnXEHKd1YVMf3-4">
           <mxGeometry x="106" y="48.5" width="234" height="217.5" as="geometry" />
         </mxCell>
-        <mxCell id="SHFTIFkNnXEHKd1YVMf3-20" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="SHFTIFkNnXEHKd1YVMf3-19">
+        <mxCell id="SHFTIFkNnXEHKd1YVMf3-20" value="" style="ellipse;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="SHFTIFkNnXEHKd1YVMf3-19">
           <mxGeometry width="225.33333333333334" height="171.5" as="geometry" />
         </mxCell>
         <mxCell id="SHFTIFkNnXEHKd1YVMf3-21" value="Workspace admin" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="SHFTIFkNnXEHKd1YVMf3-19">
@@ -347,13 +347,13 @@
           <mxGeometry width="225.33333333333334" height="171.5" as="geometry" />
         </mxCell>
         <mxCell id="SHFTIFkNnXEHKd1YVMf3-51" value="admin" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="SHFTIFkNnXEHKd1YVMf3-60">
-          <mxGeometry x="54.00333333333334" y="11.50437185929648" width="112.66666666666667" height="17.236180904522612" as="geometry" />
+          <mxGeometry x="29" y="35.620000000000005" width="56" height="17.24" as="geometry" />
         </mxCell>
         <mxCell id="SHFTIFkNnXEHKd1YVMf3-52" value="" style="shape=tape;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="SHFTIFkNnXEHKd1YVMf3-60">
-          <mxGeometry x="23.999999999999986" y="48.5" width="30" height="31" as="geometry" />
+          <mxGeometry x="123.99999999999999" y="28.740000000000002" width="30" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="SHFTIFkNnXEHKd1YVMf3-53" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="SHFTIFkNnXEHKd1YVMf3-60">
-          <mxGeometry x="43" y="60" width="167" height="100" as="geometry" />
+        <mxCell id="SHFTIFkNnXEHKd1YVMf3-53" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;dashed=1;" vertex="1" parent="SHFTIFkNnXEHKd1YVMf3-60">
+          <mxGeometry x="43" y="70" width="167" height="90" as="geometry" />
         </mxCell>
         <mxCell id="SHFTIFkNnXEHKd1YVMf3-54" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#97D077;" vertex="1" parent="SHFTIFkNnXEHKd1YVMf3-60">
           <mxGeometry x="154" y="91.25" width="35" height="35" as="geometry" />
@@ -362,16 +362,13 @@
           <mxGeometry x="64" y="103.25" width="40" height="31" as="geometry" />
         </mxCell>
         <mxCell id="SHFTIFkNnXEHKd1YVMf3-56" value="Project manager" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="SHFTIFkNnXEHKd1YVMf3-60">
-          <mxGeometry x="70" y="71.25" width="96.5" height="20" as="geometry" />
+          <mxGeometry x="64.42" y="83.25" width="96.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="SHFTIFkNnXEHKd1YVMf3-57" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#67AB9F;" vertex="1" parent="SHFTIFkNnXEHKd1YVMf3-60">
-          <mxGeometry x="69" y="34" width="30" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="SHFTIFkNnXEHKd1YVMf3-65" value="super_administrator" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="SHFTIFkNnXEHKd1YVMf3-49">
-          <mxGeometry x="0.16333333333329847" y="-38.4956281407035" width="112.66666666666667" height="17.236180904522612" as="geometry" />
+          <mxGeometry x="180" y="45.25" width="30" height="26" as="geometry" />
         </mxCell>
         <mxCell id="SHFTIFkNnXEHKd1YVMf3-66" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FFCCCC;" vertex="1" parent="SHFTIFkNnXEHKd1YVMf3-49">
-          <mxGeometry x="154" y="21.5" width="50" height="21" as="geometry" />
+          <mxGeometry x="149.32999999999998" y="21.5" width="50" height="21" as="geometry" />
         </mxCell>
         <mxCell id="SHFTIFkNnXEHKd1YVMf3-67" value="" style="shape=xor;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" vertex="1" parent="SHFTIFkNnXEHKd1YVMf3-49">
           <mxGeometry x="163" y="61.5" width="17" height="31" as="geometry" />
@@ -403,17 +400,47 @@
         <mxCell id="xDphmvwOVZGYUPQbG3uU-28" value="&lt;font style=&quot;font-size: 18px&quot;&gt;7&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFCC99;" parent="SHFTIFkNnXEHKd1YVMf3-62" vertex="1">
           <mxGeometry width="27.473684210526315" height="27.473684210526315" as="geometry" />
         </mxCell>
-        <mxCell id="SHFTIFkNnXEHKd1YVMf3-63" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Likewise the &#39;Workspace admin role&#39; in DataWorks, we want a similar MaxCompute role who is not able to onboard new users or break the data segregation concept. For example, it should not have the &#39;AddUser&#39; permission which is possessed by the &#39;Admin&#39; role.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="730" y="100" width="260" height="130" as="geometry" />
+        <mxCell id="SHFTIFkNnXEHKd1YVMf3-63" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Likewise the &#39;Workspace admin role&#39; in DataWorks, we want a similar MaxCompute role who is not able to onboard new users or break the data segregation concept. For example, it should not have the &#39;AddUser&#39; permission.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="90" width="260" height="130" as="geometry" />
         </mxCell>
         <mxCell id="SHFTIFkNnXEHKd1YVMf3-69" value="&lt;span style=&quot;color: rgb(23 , 43 , 77) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Data segregation related permissions, such as:&lt;br&gt;1. AddTrustedProject&lt;br&gt;2. CreatePackage&lt;br&gt;3. etc.&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="715" y="520" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="SHFTIFkNnXEHKd1YVMf3-70" value="&lt;span style=&quot;color: rgb(23 , 43 , 77) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;User on-boarding related permissions, such as:&lt;br&gt;1. AddUser&lt;br&gt;2. DeleteUser&lt;br&gt;3. etc.&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="950" y="290" width="170" height="80" as="geometry" />
+          <mxGeometry x="910" y="240" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xDphmvwOVZGYUPQbG3uU-21" value="&lt;font style=&quot;font-size: 18px&quot;&gt;4&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFCC99;" parent="1" vertex="1">
           <mxGeometry x="555.9990697674418" y="115.5" width="29" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="SHFTIFkNnXEHKd1YVMf3-71" value="" style="curved=1;endArrow=classic;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.865;entryY=0.744;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SHFTIFkNnXEHKd1YVMf3-69" target="SHFTIFkNnXEHKd1YVMf3-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="939.9200000000001" y="600" as="sourcePoint" />
+            <mxPoint x="909.9950000000003" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="870" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SHFTIFkNnXEHKd1YVMf3-72" value="" style="curved=1;endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.706;entryY=0.233;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SHFTIFkNnXEHKd1YVMf3-70" target="SHFTIFkNnXEHKd1YVMf3-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1080.0000000000077" y="360" as="sourcePoint" />
+            <mxPoint x="950" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="820" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SHFTIFkNnXEHKd1YVMf3-73" value="" style="curved=1;endArrow=classic;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SHFTIFkNnXEHKd1YVMf3-63" target="SHFTIFkNnXEHKd1YVMf3-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="290" as="sourcePoint" />
+            <mxPoint x="770.0853333333334" y="349.95949999999993" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SHFTIFkNnXEHKd1YVMf3-65" value="super_administrator" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650.0033333333333" y="280.0043718592965" width="112.66666666666667" height="17.236180904522612" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
