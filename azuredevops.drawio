@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-25T09:40:39.809Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36 Edg/89.0.774.48" etag="FlLeCNIhVOMEH6NzLDbA" version="14.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-25T09:55:29.901Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36 Edg/89.0.774.48" etag="Ag48zQmgg2tKusLKtH1y" version="14.5.8" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="1202" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="852" dy="372" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,6 +22,14 @@
         <mxCell id="DJit7XBmtXHK6iYe5bfM-105" value="ali_Dockerfile" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="440" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="DJit7XBmtXHK6iYe5bfM-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DJit7XBmtXHK6iYe5bfM-107" target="DJit7XBmtXHK6iYe5bfM-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DJit7XBmtXHK6iYe5bfM-116" value="Push image" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DJit7XBmtXHK6iYe5bfM-115">
+          <mxGeometry x="0.2435" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-14.12" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="DJit7XBmtXHK6iYe5bfM-107" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="560" width="160" height="240" as="geometry" />
         </mxCell>
@@ -42,6 +50,12 @@
         </mxCell>
         <mxCell id="DJit7XBmtXHK6iYe5bfM-113" value="Kubectl" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="413" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DJit7XBmtXHK6iYe5bfM-114" value="Azure Container Registry&lt;br&gt;&lt;br&gt;dockerRegistryServiceConnection: &#39;26e3a1bc-1037-4d63-ba48-95eaeabe2667&#39;&lt;br&gt;&lt;div&gt;containerRegistry: &#39;datascienceworkplacewe.azurecr.io&#39;&lt;/div&gt;&lt;div&gt;&lt;span&gt;tag: &#39;$(Build.BuildNumber)&#39;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="90" y="920" width="430" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="DJit7XBmtXHK6iYe5bfM-117" value="$(Build.SourcesDirectory)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="270" width="160" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
