@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-26T01:22:20.519Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36 Edg/89.0.774.48" etag="t6LSyFMOXKFPenbFZ6IB" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-26T23:34:57.650Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36 Edg/89.0.774.48" etag="uGrIcHhcZPh3DjB1IY-J" version="14.6.6" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="1848" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -39,7 +39,7 @@
         <mxCell id="DJit7XBmtXHK6iYe5bfM-109" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="560" width="160" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="DJit7XBmtXHK6iYe5bfM-110" value="&lt;h2&gt;Release Pipeline&lt;/h2&gt;Jupyterhub Alicloud" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="DJit7XBmtXHK6iYe5bfM-110" value="&lt;h2&gt;Release Pipeline&lt;/h2&gt;Name: Jupyterhub Alicloud" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="440" y="567" width="160" height="35" as="geometry" />
         </mxCell>
         <mxCell id="DJit7XBmtXHK6iYe5bfM-111" value="Build agent" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -110,10 +110,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="il-n5H-Y7gPzBwniJYFg-1" value="Trigger" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="il-n5H-Y7gPzBwniJYFg-1" value="Trigger" style="triangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="470" width="50" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="il-n5H-Y7gPzBwniJYFg-2" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="il-n5H-Y7gPzBwniJYFg-1" target="DJit7XBmtXHK6iYe5bfM-107">
+        <mxCell id="il-n5H-Y7gPzBwniJYFg-2" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="il-n5H-Y7gPzBwniJYFg-1" target="DJit7XBmtXHK6iYe5bfM-107" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="70" y="600" as="sourcePoint" />
             <mxPoint x="120" y="550" as="targetPoint" />
@@ -122,10 +122,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="il-n5H-Y7gPzBwniJYFg-3" value="Command: the type of command to execute&lt;br&gt;Repository: name of repository within the container registry&lt;br&gt;ContainerRegistry: name of the Docker Registry Service Connection" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="il-n5H-Y7gPzBwniJYFg-3" value="Command: the type of command to execute&lt;br&gt;Repository: name of repository within the container registry&lt;br&gt;ContainerRegistry: name of the Docker Registry Service Connection" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-160" y="940" width="240" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="il-n5H-Y7gPzBwniJYFg-5" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="il-n5H-Y7gPzBwniJYFg-3" target="DJit7XBmtXHK6iYe5bfM-125">
+        <mxCell id="il-n5H-Y7gPzBwniJYFg-5" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="il-n5H-Y7gPzBwniJYFg-3" target="DJit7XBmtXHK6iYe5bfM-125" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="1110" as="sourcePoint" />
             <mxPoint x="130" y="1060" as="targetPoint" />
@@ -134,33 +134,55 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="il-n5H-Y7gPzBwniJYFg-6" value="To reduce the code duplication, the Alicloud dockerfile should be created based on the common docker file" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="il-n5H-Y7gPzBwniJYFg-6" value="To reduce the code duplication, the Alicloud dockerfile should be created based on the common docker file" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-120" y="690" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="il-n5H-Y7gPzBwniJYFg-8" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="il-n5H-Y7gPzBwniJYFg-6" target="DJit7XBmtXHK6iYe5bfM-118">
+        <mxCell id="il-n5H-Y7gPzBwniJYFg-8" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="il-n5H-Y7gPzBwniJYFg-6" target="DJit7XBmtXHK6iYe5bfM-118" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-150" y="620" as="sourcePoint" />
             <mxPoint x="-100" y="570" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="il-n5H-Y7gPzBwniJYFg-9" value="Job" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="il-n5H-Y7gPzBwniJYFg-9" value="Job" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="620" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="il-n5H-Y7gPzBwniJYFg-10" value="Another job" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="il-n5H-Y7gPzBwniJYFg-10" value="Another job" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="10" y="567" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="il-n5H-Y7gPzBwniJYFg-12" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="il-n5H-Y7gPzBwniJYFg-9" target="DJit7XBmtXHK6iYe5bfM-120">
+        <mxCell id="il-n5H-Y7gPzBwniJYFg-12" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="il-n5H-Y7gPzBwniJYFg-9" target="DJit7XBmtXHK6iYe5bfM-120" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="50" y="780" as="sourcePoint" />
             <mxPoint x="100" y="730" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="il-n5H-Y7gPzBwniJYFg-13" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="il-n5H-Y7gPzBwniJYFg-10" target="DJit7XBmtXHK6iYe5bfM-119">
+        <mxCell id="il-n5H-Y7gPzBwniJYFg-13" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="il-n5H-Y7gPzBwniJYFg-10" target="DJit7XBmtXHK6iYe5bfM-119" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-120" y="640" as="sourcePoint" />
             <mxPoint x="-70" y="590" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLw2QElRQLzWadG3xqqA-1" value="Every new commit changes to the master branch except to the changes made to certain files/paths" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="460" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XLw2QElRQLzWadG3xqqA-2" value="" style="curved=1;endArrow=classic;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XLw2QElRQLzWadG3xqqA-1" target="il-n5H-Y7gPzBwniJYFg-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-90" y="580" as="sourcePoint" />
+            <mxPoint x="-40" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLw2QElRQLzWadG3xqqA-3" value="A build pipeline consists of one or more jobs. Each job can specify which agent pool it will be using - implies they can use different agent pools for different jobs" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="507" width="200" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="XLw2QElRQLzWadG3xqqA-4" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XLw2QElRQLzWadG3xqqA-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-30" y="610" as="sourcePoint" />
+            <mxPoint x="140" y="560" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
