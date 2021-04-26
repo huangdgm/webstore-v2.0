@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-26T00:21:19.295Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36 Edg/89.0.774.48" etag="HmfDU2LhK19VfNcQTWb9" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-26T01:22:20.519Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36 Edg/89.0.774.48" etag="t6LSyFMOXKFPenbFZ6IB" version="14.6.6" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="1848" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -31,15 +31,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DJit7XBmtXHK6iYe5bfM-107" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="150" y="560" width="210" height="500" as="geometry" />
+          <mxGeometry x="150" y="530" width="210" height="530" as="geometry" />
         </mxCell>
-        <mxCell id="DJit7XBmtXHK6iYe5bfM-108" value="Build Pipeline&lt;br&gt;Name: jupyterhub_alicloud_image&lt;br&gt;File:&amp;nbsp;azure-pipelines-alicloud.yml" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="160" y="567" width="190" height="35" as="geometry" />
+        <mxCell id="DJit7XBmtXHK6iYe5bfM-108" value="&lt;h2&gt;Build Pipeline&lt;/h2&gt;Name: jupyterhub_alicloud_image&lt;br&gt;File:&amp;nbsp;azure-pipelines-alicloud.yml" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="160" y="540" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DJit7XBmtXHK6iYe5bfM-109" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="560" width="160" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="DJit7XBmtXHK6iYe5bfM-110" value="Release Pipeline&lt;br&gt;Jupyterhub Alicloud" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="DJit7XBmtXHK6iYe5bfM-110" value="&lt;h2&gt;Release Pipeline&lt;/h2&gt;Jupyterhub Alicloud" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="440" y="567" width="160" height="35" as="geometry" />
         </mxCell>
         <mxCell id="DJit7XBmtXHK6iYe5bfM-111" value="Build agent" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -54,7 +54,7 @@
         <mxCell id="DJit7XBmtXHK6iYe5bfM-114" value="Azure Container Registry" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="170" y="1129" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DJit7XBmtXHK6iYe5bfM-117" value="$(Build.SourcesDirectory)&lt;br&gt;$(Build.DefinitionName)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="DJit7XBmtXHK6iYe5bfM-117" value="$(Build.SourcesDirectory)&lt;br&gt;$(Build.DefinitionName)&lt;br&gt;$(Agent.TempDirectory)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="580" y="270" width="160" height="150" as="geometry" />
         </mxCell>
         <mxCell id="DJit7XBmtXHK6iYe5bfM-119" value="BuildSparkAlicloud" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -111,7 +111,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="il-n5H-Y7gPzBwniJYFg-1" value="Trigger" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="470" width="50" height="80" as="geometry" />
+          <mxGeometry x="110" y="470" width="50" height="80" as="geometry" />
         </mxCell>
         <mxCell id="il-n5H-Y7gPzBwniJYFg-2" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="il-n5H-Y7gPzBwniJYFg-1" target="DJit7XBmtXHK6iYe5bfM-107">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
