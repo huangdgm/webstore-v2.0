@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-27T01:41:41.327Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36 Edg/89.0.774.48" etag="KKXxpFMZpV7sXlUGuMPq" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-27T01:58:02.252Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36 Edg/89.0.774.48" etag="KPg9f732Fk09m0e86PzU" version="14.6.6" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="1848" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -214,6 +214,18 @@
             <mxPoint x="-450" y="940" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-170" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLw2QElRQLzWadG3xqqA-10" value="What should be include in a build pipeline and what should not be?&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;The build pipeline is meant to &#39;build&#39; the code into artefacts that is ready to be deployed. This doesn&#39;t mean those artefacts can be deployed directly without any additional configuration.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;In this case, the build pipeline produces two docker images, and nothing else. The release pipeline connects to the deployment machine (where kubectl is installed) and execute the &#39;helm upgrade&#39;. Note the &#39;helm upgrade&#39; takes in a couple of inputs. These inputs might be not suitable for being stored in Git, and this is where the release pipeline comes into the play - to &#39;feed&#39; the &#39;helm upgrade&#39; with those inputs in a secure manner.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="170" width="360" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="XLw2QElRQLzWadG3xqqA-11" value="" style="curved=1;endArrow=classic;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XLw2QElRQLzWadG3xqqA-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-60" y="340" as="sourcePoint" />
+            <mxPoint x="290" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="400" />
             </Array>
           </mxGeometry>
         </mxCell>
