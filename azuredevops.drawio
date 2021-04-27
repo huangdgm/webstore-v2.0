@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-27T01:32:35.127Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36 Edg/89.0.774.48" etag="BZhPSZrlU7KeHBiK4Piz" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-27T01:41:41.327Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36 Edg/89.0.774.48" etag="KKXxpFMZpV7sXlUGuMPq" version="14.6.6" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="1678" dy="372" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1848" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -114,7 +114,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="il-n5H-Y7gPzBwniJYFg-1" value="Trigger" style="triangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="110" y="470" width="50" height="80" as="geometry" />
+          <mxGeometry x="124" y="430" width="50" height="80" as="geometry" />
         </mxCell>
         <mxCell id="il-n5H-Y7gPzBwniJYFg-2" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="il-n5H-Y7gPzBwniJYFg-1" target="DJit7XBmtXHK6iYe5bfM-107" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -170,7 +170,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XLw2QElRQLzWadG3xqqA-1" value="Every new commit changes to the master branch except to the changes made to certain files/paths" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="460" width="200" height="20" as="geometry" />
+          <mxGeometry x="-110" y="420" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="XLw2QElRQLzWadG3xqqA-2" value="" style="curved=1;endArrow=classic;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XLw2QElRQLzWadG3xqqA-1" target="il-n5H-Y7gPzBwniJYFg-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -181,14 +181,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XLw2QElRQLzWadG3xqqA-3" value="A build pipeline consists of one or more jobs. Each job can specify which agent pool it will be using - implies they can use different agent pools for different jobs" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="505" width="200" height="63" as="geometry" />
+        <mxCell id="XLw2QElRQLzWadG3xqqA-3" value="In this case, the goal of the build pipeline is to build two images - one for Spark, another for Data Science Workplace, and push these images to the Azure Container Registry.&lt;br&gt;&lt;br&gt;The build process happens in the build agent pool - a collection of build agent machines. You can choose to run the build on one or more build agent pool - either Azure-hosted machines or self-hosted machines.&lt;br&gt;&lt;br&gt;A build pipeline consists of one or more jobs. Each job can specify which agent pool it will be using - implies they can use different agent pools for different jobs." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="360" width="300" height="190" as="geometry" />
         </mxCell>
         <mxCell id="XLw2QElRQLzWadG3xqqA-4" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XLw2QElRQLzWadG3xqqA-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-30" y="610" as="sourcePoint" />
             <mxPoint x="140" y="560" as="targetPoint" />
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="30" y="500" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="XLw2QElRQLzWadG3xqqA-5" value="As soon as the build has been completed, the image will be pushed to the Azure Container Registry where waiting for being pulled onto the cluster worker nodes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
