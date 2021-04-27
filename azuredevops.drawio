@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-04-27T02:00:18.999Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36 Edg/89.0.774.48" etag="AoviKODAgTxfR8_9NJRo" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-27T23:16:11.611Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36 Edg/89.0.774.48" etag="PtbPQCezyrBZ5RCGD25l" version="14.6.6" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="2286" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2529" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="XLw2QElRQLzWadG3xqqA-7" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XLw2QElRQLzWadG3xqqA-7" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-560" y="525" width="590" height="305" as="geometry" />
         </mxCell>
         <mxCell id="DJit7XBmtXHK6iYe5bfM-96" value="&amp;lt;COMMON_DOCKERFILE_CONTENT&amp;gt;&lt;br&gt;Dockerfile" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -34,16 +34,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DJit7XBmtXHK6iYe5bfM-107" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" parent="1" vertex="1">
-          <mxGeometry x="150" y="530" width="210" height="530" as="geometry" />
+          <mxGeometry x="150" y="520" width="210" height="540" as="geometry" />
         </mxCell>
         <mxCell id="DJit7XBmtXHK6iYe5bfM-108" value="&lt;h2&gt;Build Pipeline&lt;/h2&gt;Name: jupyterhub_alicloud_image&lt;br&gt;File:&amp;nbsp;azure-pipelines-alicloud.yml" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="160" y="540" width="190" height="30" as="geometry" />
+          <mxGeometry x="160" y="537" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DJit7XBmtXHK6iYe5bfM-109" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="560" width="160" height="240" as="geometry" />
+        <mxCell id="DJit7XBmtXHK6iYe5bfM-109" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" parent="1" vertex="1">
+          <mxGeometry x="460" y="520" width="210" height="270" as="geometry" />
         </mxCell>
         <mxCell id="DJit7XBmtXHK6iYe5bfM-110" value="&lt;h2&gt;Release Pipeline&lt;/h2&gt;Name: Jupyterhub Alicloud" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="440" y="567" width="160" height="35" as="geometry" />
+          <mxGeometry x="485" y="527" width="160" height="35" as="geometry" />
         </mxCell>
         <mxCell id="DJit7XBmtXHK6iYe5bfM-111" value="Build agent" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="30" width="120" height="60" as="geometry" />
@@ -121,7 +121,7 @@
             <mxPoint x="70" y="600" as="sourcePoint" />
             <mxPoint x="120" y="550" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="255" y="510" />
+              <mxPoint x="255" y="490" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -169,10 +169,10 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XLw2QElRQLzWadG3xqqA-1" value="Every new commit changes to the master branch except to the changes made to certain files/paths" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="XLw2QElRQLzWadG3xqqA-1" value="Every new commit changes to the master branch except to the changes made to certain files/paths" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-110" y="420" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="XLw2QElRQLzWadG3xqqA-2" value="" style="curved=1;endArrow=classic;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XLw2QElRQLzWadG3xqqA-1" target="il-n5H-Y7gPzBwniJYFg-1">
+        <mxCell id="XLw2QElRQLzWadG3xqqA-2" value="" style="curved=1;endArrow=classic;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XLw2QElRQLzWadG3xqqA-1" target="il-n5H-Y7gPzBwniJYFg-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-90" y="580" as="sourcePoint" />
             <mxPoint x="-40" y="530" as="targetPoint" />
@@ -181,10 +181,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XLw2QElRQLzWadG3xqqA-3" value="In this case, the goal of the build pipeline is to build two images - one for Spark, another for Data Science Workplace, and push these images to the Azure Container Registry.&lt;br&gt;&lt;br&gt;The build process happens in the build agent pool - a collection of build agent machines. You can choose to run the build on one or more build agent pool - either Azure-hosted machines or self-hosted machines.&lt;br&gt;&lt;br&gt;A build pipeline consists of one or more jobs. Each job can specify which agent pool it will be using - implies they can use different agent pools for different jobs." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="XLw2QElRQLzWadG3xqqA-3" value="In this case, the goal of the build pipeline is to build two images - one for Spark, another for Data Science Workplace, and push these images to the Azure Container Registry.&lt;br&gt;&lt;br&gt;The build process happens in the build agent pool - a collection of build agent machines. You can choose to run the build on one or more build agent pool - either Azure-hosted machines or self-hosted machines.&lt;br&gt;&lt;br&gt;A build pipeline consists of one or more jobs. Each job can specify which agent pool it will be using - implies they can use different agent pools for different jobs." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-460" y="360" width="300" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="XLw2QElRQLzWadG3xqqA-4" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XLw2QElRQLzWadG3xqqA-3">
+        <mxCell id="XLw2QElRQLzWadG3xqqA-4" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XLw2QElRQLzWadG3xqqA-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-30" y="610" as="sourcePoint" />
             <mxPoint x="140" y="560" as="targetPoint" />
@@ -193,10 +193,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XLw2QElRQLzWadG3xqqA-5" value="As soon as the build has been completed, the image will be pushed to the Azure Container Registry where waiting for being pulled onto the cluster worker nodes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="XLw2QElRQLzWadG3xqqA-5" value="As soon as the build has been completed, the image will be pushed to the Azure Container Registry where waiting for being pulled onto the cluster worker nodes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-110" y="1050" width="190" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="XLw2QElRQLzWadG3xqqA-6" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XLw2QElRQLzWadG3xqqA-5" target="DJit7XBmtXHK6iYe5bfM-114">
+        <mxCell id="XLw2QElRQLzWadG3xqqA-6" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XLw2QElRQLzWadG3xqqA-5" target="DJit7XBmtXHK6iYe5bfM-114" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="130" y="1160" as="sourcePoint" />
             <mxPoint x="180" y="1110" as="targetPoint" />
@@ -205,10 +205,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XLw2QElRQLzWadG3xqqA-8" value="What they are used for? Why need two download tasks here?&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;These two secret files are used by Adapt2 package to function properly.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;To enable Adapt2 to leverage these two files, firstly, these two files need to be stored inside the container&#39;s filesystem. With this concept in mind, then it is easy to understand that these two files need to be included in the image by using the &#39;ADD&#39; command inside the Dockerfile. Then, why we get the contents of these two files through the &#39;Download task&#39;? The reason is security. Since these two files contain sensitive data, it is not appropriate to store these data directly in Git, instead, to keep them secure, we can upload these two files to the &#39;Azure DevOps Library&#39; beforehand and use them throughout the whole build pipeline.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="XLw2QElRQLzWadG3xqqA-8" value="What they are used for? Why need two download tasks here?&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;These two secret files are used by Adapt2 package to function properly.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;To enable Adapt2 to leverage these two files, firstly, these two files need to be stored inside the container&#39;s filesystem. With this concept in mind, then it is easy to understand that these two files need to be included in the image by using the &#39;ADD&#39; command inside the Dockerfile. Then, why we get the contents of these two files through the &#39;Download task&#39;? The reason is security. Since these two files contain sensitive data, it is not appropriate to store these data directly in Git, instead, to keep them secure, we can upload these two files to the &#39;Azure DevOps Library&#39; beforehand and use them throughout the whole build pipeline.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-450" y="830" width="250" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="XLw2QElRQLzWadG3xqqA-9" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XLw2QElRQLzWadG3xqqA-8" target="DJit7XBmtXHK6iYe5bfM-126">
+        <mxCell id="XLw2QElRQLzWadG3xqqA-9" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XLw2QElRQLzWadG3xqqA-8" target="DJit7XBmtXHK6iYe5bfM-126" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-500" y="990" as="sourcePoint" />
             <mxPoint x="-450" y="940" as="targetPoint" />
@@ -217,10 +217,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XLw2QElRQLzWadG3xqqA-10" value="What should be include in a build pipeline and what should not be?&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;The build pipeline is meant to &#39;build&#39; the code into artefacts that is ready to be deployed. This doesn&#39;t mean those artefacts can be deployed directly without any additional configuration.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;In this case, the build pipeline produces two docker images, and nothing else. The release pipeline connects to the deployment machine (where kubectl is installed) and execute the &#39;helm upgrade&#39;. Note the &#39;helm upgrade&#39; takes in a couple of inputs. These inputs might be not suitable for being stored in Git, and this is where the release pipeline comes into the play - to &#39;feed&#39; the &#39;helm upgrade&#39; with those inputs in a secure manner.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="XLw2QElRQLzWadG3xqqA-10" value="What should be include in a build pipeline and what should not be?&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;The build pipeline is meant to &#39;build&#39; the code into artefacts that is ready to be deployed. This doesn&#39;t mean those artefacts can be deployed directly without any additional configuration.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;In this case, the build pipeline produces two docker images, and nothing else. The release pipeline connects to the deployment machine (where kubectl is installed) and execute the &#39;helm upgrade&#39;. Note the &#39;helm upgrade&#39; takes in a couple of inputs. These inputs might be not suitable for being stored in Git, and this is where the release pipeline comes into the play - to &#39;feed&#39; the &#39;helm upgrade&#39; with those inputs in a secure manner.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-80" y="170" width="360" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="XLw2QElRQLzWadG3xqqA-11" value="" style="curved=1;endArrow=classic;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XLw2QElRQLzWadG3xqqA-10">
+        <mxCell id="XLw2QElRQLzWadG3xqqA-11" value="" style="curved=1;endArrow=classic;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="XLw2QElRQLzWadG3xqqA-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-60" y="340" as="sourcePoint" />
             <mxPoint x="290" y="510" as="targetPoint" />
@@ -228,6 +228,18 @@
               <mxPoint x="280" y="400" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="i_gU5cKq36gxlf2kkU8D-1" value="Configure config.yaml" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6FFCC;" vertex="1" parent="1">
+          <mxGeometry x="485" y="600" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i_gU5cKq36gxlf2kkU8D-2" value="helm repo add" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6FFCC;" vertex="1" parent="1">
+          <mxGeometry x="485" y="643" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i_gU5cKq36gxlf2kkU8D-3" value="helm repo update" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6FFCC;" vertex="1" parent="1">
+          <mxGeometry x="485" y="688" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i_gU5cKq36gxlf2kkU8D-5" value="helm upgrade" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6FFCC;" vertex="1" parent="1">
+          <mxGeometry x="485" y="733" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
