@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-27T23:16:11.611Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36 Edg/89.0.774.48" etag="PtbPQCezyrBZ5RCGD25l" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-27T23:23:52.993Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36 Edg/89.0.774.48" etag="lH0MtJiz9c3CqxPkXFga" version="14.6.6" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="2529" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2028" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,7 +16,7 @@
         <mxCell id="DJit7XBmtXHK6iYe5bfM-101" value="" style="shape=cross;whiteSpace=wrap;html=1;size=0;" parent="1" vertex="1">
           <mxGeometry x="-225" y="635" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DJit7XBmtXHK6iYe5bfM-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DJit7XBmtXHK6iYe5bfM-104" target="DJit7XBmtXHK6iYe5bfM-105" edge="1">
+        <mxCell id="DJit7XBmtXHK6iYe5bfM-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=openThin;endFill=0;" parent="1" source="DJit7XBmtXHK6iYe5bfM-104" target="DJit7XBmtXHK6iYe5bfM-105" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DJit7XBmtXHK6iYe5bfM-104" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;rotation=90;" parent="1" vertex="1">
@@ -25,7 +25,7 @@
         <mxCell id="DJit7XBmtXHK6iYe5bfM-105" value="ali_Dockerfile" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-270" y="733" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DJit7XBmtXHK6iYe5bfM-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DJit7XBmtXHK6iYe5bfM-107" target="DJit7XBmtXHK6iYe5bfM-114" edge="1">
+        <mxCell id="DJit7XBmtXHK6iYe5bfM-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=openThin;endFill=0;" parent="1" source="DJit7XBmtXHK6iYe5bfM-107" target="DJit7XBmtXHK6iYe5bfM-114" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DJit7XBmtXHK6iYe5bfM-116" value="Push image" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="DJit7XBmtXHK6iYe5bfM-115" vertex="1" connectable="0">
@@ -87,14 +87,14 @@
         <mxCell id="DJit7XBmtXHK6iYe5bfM-126" value="Download the file to the agent. You can refer to the path of the downloaded file via, e.g., $(azure_cert.secureFilePath)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-90" y="777" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DJit7XBmtXHK6iYe5bfM-127" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DJit7XBmtXHK6iYe5bfM-126" target="DJit7XBmtXHK6iYe5bfM-122" edge="1">
+        <mxCell id="DJit7XBmtXHK6iYe5bfM-127" value="" style="curved=1;endArrow=openThin;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" parent="1" source="DJit7XBmtXHK6iYe5bfM-126" target="DJit7XBmtXHK6iYe5bfM-122" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="30" y="870" as="sourcePoint" />
             <mxPoint x="80" y="820" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DJit7XBmtXHK6iYe5bfM-128" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DJit7XBmtXHK6iYe5bfM-126" target="DJit7XBmtXHK6iYe5bfM-123" edge="1">
+        <mxCell id="DJit7XBmtXHK6iYe5bfM-128" value="" style="curved=1;endArrow=openThin;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" parent="1" source="DJit7XBmtXHK6iYe5bfM-126" target="DJit7XBmtXHK6iYe5bfM-123" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="50" y="790" as="sourcePoint" />
             <mxPoint x="180" y="800" as="targetPoint" />
@@ -104,7 +104,7 @@
         <mxCell id="DJit7XBmtXHK6iYe5bfM-129" value="Copy the downloaded file to the &#39;$(Build.SourcesDirectory)/image/&#39; folder on the agent machine" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-120" y="870" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DJit7XBmtXHK6iYe5bfM-130" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DJit7XBmtXHK6iYe5bfM-129" target="DJit7XBmtXHK6iYe5bfM-124" edge="1">
+        <mxCell id="DJit7XBmtXHK6iYe5bfM-130" value="" style="curved=1;endArrow=openThin;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" parent="1" source="DJit7XBmtXHK6iYe5bfM-129" target="DJit7XBmtXHK6iYe5bfM-124" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="20" y="1010" as="sourcePoint" />
             <mxPoint x="70" y="960" as="targetPoint" />
@@ -116,7 +116,7 @@
         <mxCell id="il-n5H-Y7gPzBwniJYFg-1" value="Trigger" style="triangle;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" parent="1" vertex="1">
           <mxGeometry x="124" y="430" width="50" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="il-n5H-Y7gPzBwniJYFg-2" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="il-n5H-Y7gPzBwniJYFg-1" target="DJit7XBmtXHK6iYe5bfM-107" edge="1">
+        <mxCell id="il-n5H-Y7gPzBwniJYFg-2" value="" style="endArrow=openThin;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=0;" parent="1" source="il-n5H-Y7gPzBwniJYFg-1" target="DJit7XBmtXHK6iYe5bfM-107" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="70" y="600" as="sourcePoint" />
             <mxPoint x="120" y="550" as="targetPoint" />
@@ -128,7 +128,7 @@
         <mxCell id="il-n5H-Y7gPzBwniJYFg-3" value="Command: the type of command to execute&lt;br&gt;Repository: name of repository within the container registry&lt;br&gt;ContainerRegistry: name of the Docker Registry Service Connection" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-160" y="940" width="240" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="il-n5H-Y7gPzBwniJYFg-5" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="il-n5H-Y7gPzBwniJYFg-3" target="DJit7XBmtXHK6iYe5bfM-125" edge="1">
+        <mxCell id="il-n5H-Y7gPzBwniJYFg-5" value="" style="curved=1;endArrow=openThin;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" parent="1" source="il-n5H-Y7gPzBwniJYFg-3" target="DJit7XBmtXHK6iYe5bfM-125" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="1110" as="sourcePoint" />
             <mxPoint x="130" y="1060" as="targetPoint" />
@@ -140,7 +140,7 @@
         <mxCell id="il-n5H-Y7gPzBwniJYFg-6" value="To reduce the code duplication, the Alicloud dockerfile should be created based on the common docker file" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-490" y="710" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="il-n5H-Y7gPzBwniJYFg-8" value="" style="curved=1;endArrow=classic;html=1;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="XLw2QElRQLzWadG3xqqA-7" target="DJit7XBmtXHK6iYe5bfM-118" edge="1">
+        <mxCell id="il-n5H-Y7gPzBwniJYFg-8" value="" style="curved=1;endArrow=openThin;html=1;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;endFill=0;" parent="1" source="XLw2QElRQLzWadG3xqqA-7" target="DJit7XBmtXHK6iYe5bfM-118" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-150" y="620" as="sourcePoint" />
             <mxPoint x="-100" y="570" as="targetPoint" />
@@ -155,14 +155,14 @@
         <mxCell id="il-n5H-Y7gPzBwniJYFg-10" value="Another job" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="10" y="567" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="il-n5H-Y7gPzBwniJYFg-12" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="il-n5H-Y7gPzBwniJYFg-9" target="DJit7XBmtXHK6iYe5bfM-120" edge="1">
+        <mxCell id="il-n5H-Y7gPzBwniJYFg-12" value="" style="curved=1;endArrow=openThin;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endFill=0;" parent="1" source="il-n5H-Y7gPzBwniJYFg-9" target="DJit7XBmtXHK6iYe5bfM-120" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="50" y="780" as="sourcePoint" />
             <mxPoint x="100" y="730" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="il-n5H-Y7gPzBwniJYFg-13" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="il-n5H-Y7gPzBwniJYFg-10" target="DJit7XBmtXHK6iYe5bfM-119" edge="1">
+        <mxCell id="il-n5H-Y7gPzBwniJYFg-13" value="" style="curved=1;endArrow=openThin;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endFill=0;" parent="1" source="il-n5H-Y7gPzBwniJYFg-10" target="DJit7XBmtXHK6iYe5bfM-119" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-120" y="640" as="sourcePoint" />
             <mxPoint x="-70" y="590" as="targetPoint" />
@@ -172,7 +172,7 @@
         <mxCell id="XLw2QElRQLzWadG3xqqA-1" value="Every new commit changes to the master branch except to the changes made to certain files/paths" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-110" y="420" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="XLw2QElRQLzWadG3xqqA-2" value="" style="curved=1;endArrow=classic;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XLw2QElRQLzWadG3xqqA-1" target="il-n5H-Y7gPzBwniJYFg-1" edge="1">
+        <mxCell id="XLw2QElRQLzWadG3xqqA-2" value="" style="curved=1;endArrow=openThin;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" parent="1" source="XLw2QElRQLzWadG3xqqA-1" target="il-n5H-Y7gPzBwniJYFg-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-90" y="580" as="sourcePoint" />
             <mxPoint x="-40" y="530" as="targetPoint" />
@@ -184,7 +184,7 @@
         <mxCell id="XLw2QElRQLzWadG3xqqA-3" value="In this case, the goal of the build pipeline is to build two images - one for Spark, another for Data Science Workplace, and push these images to the Azure Container Registry.&lt;br&gt;&lt;br&gt;The build process happens in the build agent pool - a collection of build agent machines. You can choose to run the build on one or more build agent pool - either Azure-hosted machines or self-hosted machines.&lt;br&gt;&lt;br&gt;A build pipeline consists of one or more jobs. Each job can specify which agent pool it will be using - implies they can use different agent pools for different jobs." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-460" y="360" width="300" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="XLw2QElRQLzWadG3xqqA-4" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XLw2QElRQLzWadG3xqqA-3" edge="1">
+        <mxCell id="XLw2QElRQLzWadG3xqqA-4" value="" style="curved=1;endArrow=openThin;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endFill=0;" parent="1" source="XLw2QElRQLzWadG3xqqA-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-30" y="610" as="sourcePoint" />
             <mxPoint x="140" y="560" as="targetPoint" />
@@ -196,7 +196,7 @@
         <mxCell id="XLw2QElRQLzWadG3xqqA-5" value="As soon as the build has been completed, the image will be pushed to the Azure Container Registry where waiting for being pulled onto the cluster worker nodes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-110" y="1050" width="190" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="XLw2QElRQLzWadG3xqqA-6" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XLw2QElRQLzWadG3xqqA-5" target="DJit7XBmtXHK6iYe5bfM-114" edge="1">
+        <mxCell id="XLw2QElRQLzWadG3xqqA-6" value="" style="curved=1;endArrow=openThin;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" parent="1" source="XLw2QElRQLzWadG3xqqA-5" target="DJit7XBmtXHK6iYe5bfM-114" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="130" y="1160" as="sourcePoint" />
             <mxPoint x="180" y="1110" as="targetPoint" />
@@ -208,7 +208,7 @@
         <mxCell id="XLw2QElRQLzWadG3xqqA-8" value="What they are used for? Why need two download tasks here?&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;These two secret files are used by Adapt2 package to function properly.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;To enable Adapt2 to leverage these two files, firstly, these two files need to be stored inside the container&#39;s filesystem. With this concept in mind, then it is easy to understand that these two files need to be included in the image by using the &#39;ADD&#39; command inside the Dockerfile. Then, why we get the contents of these two files through the &#39;Download task&#39;? The reason is security. Since these two files contain sensitive data, it is not appropriate to store these data directly in Git, instead, to keep them secure, we can upload these two files to the &#39;Azure DevOps Library&#39; beforehand and use them throughout the whole build pipeline.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-450" y="830" width="250" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="XLw2QElRQLzWadG3xqqA-9" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XLw2QElRQLzWadG3xqqA-8" target="DJit7XBmtXHK6iYe5bfM-126" edge="1">
+        <mxCell id="XLw2QElRQLzWadG3xqqA-9" value="" style="curved=1;endArrow=openThin;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" parent="1" source="XLw2QElRQLzWadG3xqqA-8" target="DJit7XBmtXHK6iYe5bfM-126" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-500" y="990" as="sourcePoint" />
             <mxPoint x="-450" y="940" as="targetPoint" />
@@ -220,7 +220,7 @@
         <mxCell id="XLw2QElRQLzWadG3xqqA-10" value="What should be include in a build pipeline and what should not be?&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;The build pipeline is meant to &#39;build&#39; the code into artefacts that is ready to be deployed. This doesn&#39;t mean those artefacts can be deployed directly without any additional configuration.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;In this case, the build pipeline produces two docker images, and nothing else. The release pipeline connects to the deployment machine (where kubectl is installed) and execute the &#39;helm upgrade&#39;. Note the &#39;helm upgrade&#39; takes in a couple of inputs. These inputs might be not suitable for being stored in Git, and this is where the release pipeline comes into the play - to &#39;feed&#39; the &#39;helm upgrade&#39; with those inputs in a secure manner.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-80" y="170" width="360" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="XLw2QElRQLzWadG3xqqA-11" value="" style="curved=1;endArrow=classic;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="XLw2QElRQLzWadG3xqqA-10" edge="1">
+        <mxCell id="XLw2QElRQLzWadG3xqqA-11" value="" style="curved=1;endArrow=openThin;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;endFill=0;" parent="1" source="XLw2QElRQLzWadG3xqqA-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-60" y="340" as="sourcePoint" />
             <mxPoint x="290" y="510" as="targetPoint" />
@@ -240,6 +240,18 @@
         </mxCell>
         <mxCell id="i_gU5cKq36gxlf2kkU8D-5" value="helm upgrade" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6FFCC;" vertex="1" parent="1">
           <mxGeometry x="485" y="733" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i_gU5cKq36gxlf2kkU8D-6" value="Populate the &#39;placeholders&#39; with the desired value in config.yaml.&lt;br&gt;The config.yaml is a file which includes the values that will be used by Kubernetes to create/update objects. Helm is a templating engine which is able to populate the yaml file, e.g., a deployment yaml file, with the desired values." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="497" width="240" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="i_gU5cKq36gxlf2kkU8D-7" value="" style="endArrow=openThin;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;endFill=0;" edge="1" parent="1" source="i_gU5cKq36gxlf2kkU8D-6" target="i_gU5cKq36gxlf2kkU8D-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="720" as="sourcePoint" />
+            <mxPoint x="750" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="570" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
