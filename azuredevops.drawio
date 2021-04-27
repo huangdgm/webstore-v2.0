@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-27T01:20:32.945Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36 Edg/89.0.774.48" etag="-BA-XsAwfrUh3-LNa92G" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-27T01:32:35.127Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36 Edg/89.0.774.48" etag="BZhPSZrlU7KeHBiK4Piz" version="14.6.6" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="2028" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1678" dy="372" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -200,6 +200,18 @@
             <mxPoint x="180" y="1110" as="targetPoint" />
             <Array as="points">
               <mxPoint x="140" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLw2QElRQLzWadG3xqqA-8" value="What they are used for? Why need two download tasks here?&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;These two secret files are used by Adapt2 package to function properly.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;To enable Adapt2 to leverage these two files, firstly, these two files need to be stored inside the container&#39;s filesystem. With this concept in mind, then it is easy to understand that these two files need to be included in the image by using the &#39;ADD&#39; command inside the Dockerfile. Then, why we get the contents of these two files through the &#39;Download task&#39;? The reason is security. Since these two files contain sensitive data, it is not appropriate to store these data directly in Git, instead, to keep them secure, we can upload these two files to the &#39;Azure DevOps Library&#39; beforehand and use them throughout the whole build pipeline.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="830" width="250" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="XLw2QElRQLzWadG3xqqA-9" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XLw2QElRQLzWadG3xqqA-8" target="DJit7XBmtXHK6iYe5bfM-126">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-500" y="990" as="sourcePoint" />
+            <mxPoint x="-450" y="940" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-170" y="850" />
             </Array>
           </mxGeometry>
         </mxCell>
