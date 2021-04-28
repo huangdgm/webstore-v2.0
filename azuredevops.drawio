@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-28T00:44:31.216Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36 Edg/89.0.774.48" etag="iOq_LTzUTCS78IH5JZUT" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-28T01:03:58.595Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36 Edg/89.0.774.48" etag="rcnSdMl89cv6Uo2sZVLH" version="14.6.6" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="1678" dy="372" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2028" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -242,7 +242,7 @@
           <mxGeometry x="485" y="733" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i_gU5cKq36gxlf2kkU8D-6" value="Populate the &#39;placeholders&#39; with the desired value in config.yaml.&lt;br&gt;&lt;br&gt;The config.yaml is a file which includes the values that will be used by Kubernetes to create/update objects. Helm is a templating engine which is able to populate the yaml file, e.g., a deployment yaml file, with the desired values." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="730" y="497" width="240" height="133" as="geometry" />
+          <mxGeometry x="730" y="497" width="250" height="133" as="geometry" />
         </mxCell>
         <mxCell id="i_gU5cKq36gxlf2kkU8D-7" value="" style="endArrow=openThin;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;endFill=0;" edge="1" parent="1" source="i_gU5cKq36gxlf2kkU8D-6" target="i_gU5cKq36gxlf2kkU8D-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -309,6 +309,45 @@
             <mxPoint x="420" y="910" as="targetPoint" />
             <Array as="points">
               <mxPoint x="440" y="935" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_gU5cKq36gxlf2kkU8D-17" value="Add repo - a repo is home to a collection of charts. Each chart is a collection of yaml files which constitute a deployment.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="642" width="250" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="i_gU5cKq36gxlf2kkU8D-18" value="" style="endArrow=openThin;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;endFill=0;" edge="1" parent="1" source="i_gU5cKq36gxlf2kkU8D-17" target="i_gU5cKq36gxlf2kkU8D-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="708.5" as="sourcePoint" />
+            <mxPoint x="645" y="759.9999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_gU5cKq36gxlf2kkU8D-19" value="Update repo - so that Helm know the full list of repos which it can search charts from." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="698" width="240" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="i_gU5cKq36gxlf2kkU8D-20" value="" style="endArrow=openThin;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;endFill=0;" edge="1" parent="1" source="i_gU5cKq36gxlf2kkU8D-19" target="i_gU5cKq36gxlf2kkU8D-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="725" y="723" as="sourcePoint" />
+            <mxPoint x="640" y="713" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="685" y="735" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_gU5cKq36gxlf2kkU8D-21" value="Upgrade - feed the existing deployment with the updated values, if any, within the config.yaml file." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="745" width="250" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="i_gU5cKq36gxlf2kkU8D-22" value="Question:&lt;br&gt;&lt;br&gt;Any downtime during a new release deployment?&lt;br&gt;How does the continuous-image-puller work?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="413" y="15" width="277" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="i_gU5cKq36gxlf2kkU8D-23" value="" style="endArrow=openThin;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;endFill=0;" edge="1" parent="1" source="i_gU5cKq36gxlf2kkU8D-21" target="i_gU5cKq36gxlf2kkU8D-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="715" y="785" as="sourcePoint" />
+            <mxPoint x="630" y="774" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="779" />
             </Array>
           </mxGeometry>
         </mxCell>
