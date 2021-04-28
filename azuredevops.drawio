@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-28T01:03:58.595Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36 Edg/89.0.774.48" etag="rcnSdMl89cv6Uo2sZVLH" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-28T01:27:46.116Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36 Edg/89.0.774.48" etag="92YNY2KlfaDd1nz0vsJV" version="14.6.6" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="2028" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2529" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,31 +34,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DJit7XBmtXHK6iYe5bfM-107" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" parent="1" vertex="1">
-          <mxGeometry x="160" y="520" width="190" height="540" as="geometry" />
+          <mxGeometry x="160" y="510" width="190" height="550" as="geometry" />
         </mxCell>
-        <mxCell id="DJit7XBmtXHK6iYe5bfM-108" value="&lt;h2&gt;Build Pipeline&lt;/h2&gt;Name: jupyterhub_alicloud_image&lt;br&gt;File:&amp;nbsp;azure-pipelines-alicloud.yml" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="160" y="537" width="190" height="30" as="geometry" />
+        <mxCell id="DJit7XBmtXHK6iYe5bfM-108" value="&lt;p&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Build Pipeline&lt;/font&gt;&lt;/p&gt;&lt;div&gt;Running in Microsoft Agent&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Name: jupyterhub_alicloud_image&lt;br&gt;File:&amp;nbsp;azure-pipelines-alicloud.yml" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="160" y="510" width="190" height="93" as="geometry" />
         </mxCell>
         <mxCell id="DJit7XBmtXHK6iYe5bfM-109" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" parent="1" vertex="1">
-          <mxGeometry x="470" y="520" width="190" height="270" as="geometry" />
+          <mxGeometry x="470" y="510" width="190" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="DJit7XBmtXHK6iYe5bfM-110" value="&lt;h2&gt;Release Pipeline&lt;/h2&gt;Name: Jupyterhub Alicloud" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="485" y="527" width="160" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="DJit7XBmtXHK6iYe5bfM-111" value="Build agent" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="260" y="30" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="DJit7XBmtXHK6iYe5bfM-112" value="K8S cluster" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="80" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="DJit7XBmtXHK6iYe5bfM-113" value="Kubectl" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="430" y="140" width="120" height="60" as="geometry" />
+        <mxCell id="DJit7XBmtXHK6iYe5bfM-110" value="&lt;p&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Release Pipeline&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Running in dsw-dev-deploy&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Name: Jupyterhub Alicloud&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="485" y="520" width="160" height="73" as="geometry" />
         </mxCell>
         <mxCell id="DJit7XBmtXHK6iYe5bfM-114" value="Azure Container Registry" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#FFFFCC;" parent="1" vertex="1">
           <mxGeometry x="185" y="1104" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DJit7XBmtXHK6iYe5bfM-117" value="$(Build.SourcesDirectory)&lt;br&gt;$(Build.DefinitionName)&lt;br&gt;$(Agent.TempDirectory)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="530" y="220" width="160" height="50" as="geometry" />
+          <mxGeometry x="400" y="190" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DJit7XBmtXHK6iYe5bfM-119" value="BuildSparkAlicloud" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6FFCC;" parent="1" vertex="1">
           <mxGeometry x="174" y="610" width="160" height="30" as="geometry" />
@@ -201,7 +192,7 @@
             <mxPoint x="130" y="1160" as="sourcePoint" />
             <mxPoint x="180" y="1110" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="140" y="1100" />
+              <mxPoint x="140" y="1130" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -259,7 +250,7 @@
         <mxCell id="i_gU5cKq36gxlf2kkU8D-9" value="" style="endArrow=openThin;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endFill=0;" edge="1" parent="1" source="i_gU5cKq36gxlf2kkU8D-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="499" y="470" as="sourcePoint" />
-            <mxPoint x="565" y="519" as="targetPoint" />
+            <mxPoint x="565" y="510" as="targetPoint" />
             <Array as="points">
               <mxPoint x="565" y="490" />
             </Array>
@@ -277,19 +268,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="i_gU5cKq36gxlf2kkU8D-12" value="The release pipeline will NOT be running on the build machine, it will be running on the deployment machine (dsw-dev-deploy) instead. The deployment machine need to be pre-configured within the &#39;Deployment Group&#39; page in Azure DevOps.&lt;br&gt;&lt;br&gt;This machine is pre-configured with some prerequisites such as agent software, Kubectl, Helm, etc. The agent software is provided by Microsoft and is used for running the pipeline. The Kubectl is used for communicating with the target Kubernetes cluster (via Kubernetes API Server). The Helm is like a templating engine which can manage yaml files in batch." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="560" y="292" width="350" height="158" as="geometry" />
+        <mxCell id="i_gU5cKq36gxlf2kkU8D-12" value="The release pipeline will NOT be running on the build machine, it will be running on the deployment machine (dsw-dev-deploy) instead. The deployment machine need to be pre-configured within the &#39;Deployment Group&#39; page in Azure DevOps.&lt;br&gt;&lt;br&gt;This machine is pre-configured with some prerequisites such as &lt;b&gt;Microsoft agent software, Kubectl, Helm&lt;/b&gt;, etc. The agent software is provided by Microsoft and is used for running the pipeline. The Kubectl is used for communicating with the target Kubernetes cluster (via Kubernetes API Server). The Helm is like a templating engine which can manage yaml files in batch." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="292" width="350" height="158" as="geometry" />
         </mxCell>
-        <mxCell id="i_gU5cKq36gxlf2kkU8D-13" value="" style="curved=1;endArrow=openThin;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="1" source="i_gU5cKq36gxlf2kkU8D-12" target="DJit7XBmtXHK6iYe5bfM-109">
+        <mxCell id="i_gU5cKq36gxlf2kkU8D-13" value="" style="curved=1;endArrow=openThin;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="1" source="i_gU5cKq36gxlf2kkU8D-12" target="DJit7XBmtXHK6iYe5bfM-109">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="600" y="500" as="sourcePoint" />
             <mxPoint x="650" y="450" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="680" y="500" />
+              <mxPoint x="600" y="470" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="i_gU5cKq36gxlf2kkU8D-14" value="" style="curved=1;endArrow=openThin;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="1" source="DJit7XBmtXHK6iYe5bfM-114" target="DJit7XBmtXHK6iYe5bfM-109">
+        <mxCell id="i_gU5cKq36gxlf2kkU8D-14" value="" style="curved=1;endArrow=openThin;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;dashed=1;" edge="1" parent="1" source="DJit7XBmtXHK6iYe5bfM-114" target="DJit7XBmtXHK6iYe5bfM-109">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="1120" as="sourcePoint" />
             <mxPoint x="410" y="650" as="targetPoint" />
@@ -340,7 +331,7 @@
           <mxGeometry x="730" y="745" width="250" height="45" as="geometry" />
         </mxCell>
         <mxCell id="i_gU5cKq36gxlf2kkU8D-22" value="Question:&lt;br&gt;&lt;br&gt;Any downtime during a new release deployment?&lt;br&gt;How does the continuous-image-puller work?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="413" y="15" width="277" height="65" as="geometry" />
+          <mxGeometry x="350" y="70" width="277" height="65" as="geometry" />
         </mxCell>
         <mxCell id="i_gU5cKq36gxlf2kkU8D-23" value="" style="endArrow=openThin;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;endFill=0;" edge="1" parent="1" source="i_gU5cKq36gxlf2kkU8D-21" target="i_gU5cKq36gxlf2kkU8D-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -349,6 +340,23 @@
             <Array as="points">
               <mxPoint x="680" y="779" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_gU5cKq36gxlf2kkU8D-25" value="K8S cluster" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1040" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i_gU5cKq36gxlf2kkU8D-27" value="" style="curved=1;endArrow=openThin;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="1" source="DJit7XBmtXHK6iYe5bfM-114" target="i_gU5cKq36gxlf2kkU8D-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="1130" as="sourcePoint" />
+            <mxPoint x="485" y="1159" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="1135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_gU5cKq36gxlf2kkU8D-28" value="continuous-image-puller" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i_gU5cKq36gxlf2kkU8D-27">
+          <mxGeometry x="-0.4343" y="-2" relative="1" as="geometry">
+            <mxPoint x="64" y="-13" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
