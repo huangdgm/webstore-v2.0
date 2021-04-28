@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-28T00:23:54.545Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36 Edg/89.0.774.48" etag="8fVhZ8fPrMsPSTB4jAUr" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-28T00:44:31.216Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36 Edg/89.0.774.48" etag="iOq_LTzUTCS78IH5JZUT" version="14.6.6" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="1365" dy="308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1678" dy="372" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,7 +30,7 @@
         </mxCell>
         <mxCell id="DJit7XBmtXHK6iYe5bfM-116" value="Push image" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="DJit7XBmtXHK6iYe5bfM-115" vertex="1" connectable="0">
           <mxGeometry x="0.2435" y="1" relative="1" as="geometry">
-            <mxPoint x="-1" y="-14.12" as="offset" />
+            <mxPoint x="-1" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DJit7XBmtXHK6iYe5bfM-107" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" parent="1" vertex="1">
@@ -55,7 +55,7 @@
           <mxGeometry x="430" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DJit7XBmtXHK6iYe5bfM-114" value="Azure Container Registry" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#FFFFCC;" parent="1" vertex="1">
-          <mxGeometry x="185" y="1120" width="140" height="40" as="geometry" />
+          <mxGeometry x="185" y="1104" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DJit7XBmtXHK6iYe5bfM-117" value="$(Build.SourcesDirectory)&lt;br&gt;$(Build.DefinitionName)&lt;br&gt;$(Agent.TempDirectory)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="530" y="220" width="160" height="50" as="geometry" />
@@ -286,6 +286,29 @@
             <mxPoint x="650" y="450" as="targetPoint" />
             <Array as="points">
               <mxPoint x="680" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_gU5cKq36gxlf2kkU8D-14" value="" style="curved=1;endArrow=openThin;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="1" source="DJit7XBmtXHK6iYe5bfM-114" target="DJit7XBmtXHK6iYe5bfM-109">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="1120" as="sourcePoint" />
+            <mxPoint x="410" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="1100" />
+              <mxPoint x="410" y="840" />
+              <mxPoint x="410" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_gU5cKq36gxlf2kkU8D-15" value="Once the image has been pushed to ACR, the build process is considered completed, and the release pipeline will take hand over from here.&lt;br&gt;&lt;br&gt;Before running the release pipeline, the images SHOULD BE existing on each of the worker nodes so that the new images can be deployed. The reason why the new images should be there is because the image size is huge in our case (~19GB). By pulling the image from ACR before the actual users arrive will save the waiting time for them. The pulling of the image is done by the &#39;&lt;b&gt;continuous-image-puller&lt;/b&gt;&#39;. However, if the image size is small then it is trivial to do so." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="840" width="300" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="i_gU5cKq36gxlf2kkU8D-16" value="" style="curved=1;endArrow=openThin;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endFill=0;" edge="1" parent="1" source="i_gU5cKq36gxlf2kkU8D-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="1090" as="sourcePoint" />
+            <mxPoint x="420" y="910" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="935" />
             </Array>
           </mxGeometry>
         </mxCell>
