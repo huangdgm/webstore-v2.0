@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-04T11:18:22.779Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47" etag="ZOYivnEeqyPaGe-Vvhjw" version="15.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-04T11:30:55.572Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47" etag="vZT7uQlVpwq_q4hCUa4C" version="15.5.0" type="github">
   <diagram id="-4BOm8VSseqpQfRe0PLD" name="Page-1">
     <mxGraphModel dx="1202" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -37,11 +37,11 @@
         <mxCell id="zlo9cjSyNs_lUa3ltQxZ-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="60" width="270" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="zlo9cjSyNs_lUa3ltQxZ-1" value="CUBE DEV" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66B2FF;" vertex="1" parent="1">
+        <mxCell id="zlo9cjSyNs_lUa3ltQxZ-1" value="CUBE DEV" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66B2FF;align=center;" vertex="1" parent="1">
           <mxGeometry x="185" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zlo9cjSyNs_lUa3ltQxZ-2" value="CUBE UAT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B3FF66;" vertex="1" parent="1">
-          <mxGeometry x="185" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="185" y="247" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zlo9cjSyNs_lUa3ltQxZ-3" value="CUBE PREPROD" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B3FF66;" vertex="1" parent="1">
           <mxGeometry x="185" y="320" width="120" height="60" as="geometry" />
@@ -99,6 +99,30 @@
         </mxCell>
         <mxCell id="zlo9cjSyNs_lUa3ltQxZ-45" value="C3P team" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1010" y="370" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zlo9cjSyNs_lUa3ltQxZ-46" value="MaxCompute" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#330000;fillColor=#66B2FF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="200" y="150" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zlo9cjSyNs_lUa3ltQxZ-48" value="MaxCompute" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#330000;fillColor=#B3FF66;align=center;" vertex="1" parent="1">
+          <mxGeometry x="200" y="289" width="90" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="zlo9cjSyNs_lUa3ltQxZ-50" value="MaxCompute" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#330000;fillColor=#B3FF66;align=center;" vertex="1" parent="1">
+          <mxGeometry x="200" y="510" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zlo9cjSyNs_lUa3ltQxZ-51" value="MaxCompute" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#330000;fillColor=#B3FF66;align=center;" vertex="1" parent="1">
+          <mxGeometry x="200" y="360" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zlo9cjSyNs_lUa3ltQxZ-52" value="DataWorks" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#330000;fillColor=#FFFF66;" vertex="1" parent="1">
+          <mxGeometry x="730" y="197.5" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zlo9cjSyNs_lUa3ltQxZ-53" value="DataWorks" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#330000;fillColor=#FFFF66;" vertex="1" parent="1">
+          <mxGeometry x="730" y="290" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zlo9cjSyNs_lUa3ltQxZ-54" value="DataWorks" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#330000;fillColor=#FFFF66;" vertex="1" parent="1">
+          <mxGeometry x="730" y="380" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zlo9cjSyNs_lUa3ltQxZ-55" value="DataWorks" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#330000;fillColor=#FFFF66;" vertex="1" parent="1">
+          <mxGeometry x="730" y="470" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
