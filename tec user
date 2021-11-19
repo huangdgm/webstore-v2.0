@@ -1,1 +1,95 @@
-<mxfile host="app.diagrams.net" modified="2021-11-18T02:13:53.336Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.47" version="15.8.2" etag="0cteeYucI3terjgRfHdS" type="github"><diagram id="xTZTjSU_jpA0PA8l72Dy">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-19T08:33:26.697Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.47" etag="qJwrT7z9SCXbwX_aMEe7" version="15.8.2" type="github">
+  <diagram id="xTZTjSU_jpA0PA8l72Dy" name="Page-1">
+    <mxGraphModel dx="1017" dy="935" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qXflrQzpP6eARRjABB62-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="310" width="270" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="qXflrQzpP6eARRjABB62-3" value="DataWorks - GDS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="645" y="315" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qXflrQzpP6eARRjABB62-1" value="Data Source: odps_main&lt;br&gt;&lt;br&gt;GDS RAM user: tec_user_cube_lh_protected_uat" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="360" width="245" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qXflrQzpP6eARRjABB62-4" value="MaxCompute Visitor Identity&lt;br&gt;&lt;br&gt;GDS root account:&lt;br&gt;ALIYUN$alicloudprod_dsascn@swissre.com" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="470" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qXflrQzpP6eARRjABB62-6" value="DataWorks API&lt;br&gt;DataWorks role: Development&lt;br&gt;&lt;br&gt;GDS RAM user: cube_api_uat" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="550" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qXflrQzpP6eARRjABB62-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="650" width="271" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="qXflrQzpP6eARRjABB62-8" value="MaxCompute - CUBE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="263.5" y="660" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qXflrQzpP6eARRjABB62-9" value="MC role: role_project_ds_odps_main&lt;br&gt;&lt;br&gt;GDS RAM user: tec_user_cube_lh_protected_uat" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="700" width="246" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qXflrQzpP6eARRjABB62-10" value="MC role: admin&lt;br&gt;&lt;br&gt;CUBE RAM user: cube-bj-uat-techuser-dwmc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="800" width="246" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qXflrQzpP6eARRjABB62-11" value="MC role: super_administrator&lt;br&gt;&lt;br&gt;GDS root account:&lt;br&gt;ALIYUN$alicloudprod_dsascn@swissre.com" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="880" width="246" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qXflrQzpP6eARRjABB62-12" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="650" width="270" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="qXflrQzpP6eARRjABB62-13" value="MaxCompute - GDS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="622.5" y="660" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qXflrQzpP6eARRjABB62-14" value="MC role: role_project_ds_odps_main&lt;br&gt;&lt;br&gt;GDS RAM user: tec_user_cube_lh_protected_uat" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="700" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qXflrQzpP6eARRjABB62-18" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qXflrQzpP6eARRjABB62-7" target="qXflrQzpP6eARRjABB62-12">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="430" y="850" as="sourcePoint" />
+            <mxPoint x="530" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qXflrQzpP6eARRjABB62-19" value="Mutual trust" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="780" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qXflrQzpP6eARRjABB62-21" value="Set as MC API tech user" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="830" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qXflrQzpP6eARRjABB62-22" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="qXflrQzpP6eARRjABB62-21" target="qXflrQzpP6eARRjABB62-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="900" as="sourcePoint" />
+            <mxPoint x="130" y="850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qXflrQzpP6eARRjABB62-23" value="Set as node owner" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="45" y="920" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qXflrQzpP6eARRjABB62-24" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="qXflrQzpP6eARRjABB62-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="910" as="sourcePoint" />
+            <mxPoint x="190" y="920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qXflrQzpP6eARRjABB62-25" value="Its AccessKey pair will be used for setting up &#39;odps_main&#39; data source in GDS DataWorks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="710" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qXflrQzpP6eARRjABB62-26" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qXflrQzpP6eARRjABB62-25" target="qXflrQzpP6eARRjABB62-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="135" y="840" as="sourcePoint" />
+            <mxPoint x="236" y="840" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qXflrQzpP6eARRjABB62-27" value="MC role: super_administrator&lt;br&gt;&lt;br&gt;GDS root account:&lt;br&gt;ALIYUN$alicloudprod_dsascn@swissre.com" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="850" width="250" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
