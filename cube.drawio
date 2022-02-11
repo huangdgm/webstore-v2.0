@@ -1,1 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2022-02-11T08:00:23.466Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.55" version="16.5.6" etag="6BNPnd1Ll6geK69FDQiR" type="github"><diagram id="UOV7l11RFW3tHMMUFeHV">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-11T08:59:54.395Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.55" etag="GDnZaynLBRgxrmdtdoos" version="16.5.6" type="github">
+  <diagram id="UOV7l11RFW3tHMMUFeHV" name="Page-1">
+    <mxGraphModel dx="945" dy="875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8TXviYnzx8GVMzGlXOrj-20" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="140" y="220" width="120" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="8TXviYnzx8GVMzGlXOrj-21" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="150" y="230" width="120" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="8TXviYnzx8GVMzGlXOrj-22" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="240" width="120" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="8TXviYnzx8GVMzGlXOrj-1" value="&lt;span style=&quot;background-color: rgb(102 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(102 , 255 , 255)&quot;&gt;CUBE account&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(102 , 255 , 255)&quot;&gt;Dev, UAT, NP, P&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;MaxCompute - Dev&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;MaxCompute - UAT&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;MaxCompute - NP&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;MaxCompute - P&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;DataWorks area" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="250" width="120" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="8TXviYnzx8GVMzGlXOrj-2" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 102)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 102)&quot;&gt;DSASCN account&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 102)&quot;&gt;PROD&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;DataWorks - Dev&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;DataWorks - UAT&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;DataWorks - NP&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;DataWorks - P&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;MaxCompute public area&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;MaxCompute LH shared area&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;MaxCompute protected area&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="250" width="180" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="8TXviYnzx8GVMzGlXOrj-12" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.659;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="296" y="540" as="sourcePoint" />
+            <mxPoint x="526" y="539.96" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8TXviYnzx8GVMzGlXOrj-10" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;Data Source &amp;amp; CEN&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFF66;" vertex="1" parent="1">
+          <mxGeometry x="360" y="515" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8TXviYnzx8GVMzGlXOrj-16" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.667;entryY=0.636;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="8TXviYnzx8GVMzGlXOrj-2">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="720" y="610" as="sourcePoint" />
+            <mxPoint x="760" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="800" y="610" />
+              <mxPoint x="800" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8TXviYnzx8GVMzGlXOrj-17" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;Data Source&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFF66;" vertex="1" parent="1">
+          <mxGeometry x="750" y="551" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
